@@ -1,0 +1,472 @@
+.wetalent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 40px;
+}
+
+.wetalent-container .right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.wetalent-container .right-section h1 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.wetalent-container .right-section span {
+  color: #004085;
+  position: relative; /* Para el pseudo-elemento del efecto typewriter */
+  overflow: hidden; /* Para ocultar el pseudo-elemento inicialmente */
+}
+
+.wetalent-container .right-section p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.wetalent-container .right-section .talent-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  perspective: 1000px; /* Necesario para animaciones 3D como rotateX */
+}
+
+.wetalent-container .right-section .talent-cards-container .wetalent-card {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .bg-card {
+  width: 100%;
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .bg-card
+  img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .content-container
+  figure {
+  width: 15vw;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+  aspect-ratio: 1/1;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .content-container
+  figure
+  img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.wetalent-container
+  .right-section
+  .talent-cards-container
+  .wetalent-card
+  .content-container
+  h2 {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+/* Sección izquierda actualizada para imagen */
+.wetalent-container .left-section {
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.image-container:hover {
+  transform: scale(1.02);
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.main-image:hover img {
+  transform: scale(1.05);
+}
+
+/* Efecto de brillo opcional para la imagen */
+.main-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shimmer 3s infinite;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Base de animaciones de entrada (fade-in, slide-in, bounce-in, etc.) */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-in-up {
+  opacity: 0;
+  transform: translateY(60px) scale(0.9);
+  transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-up.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.bounce-in {
+  opacity: 0;
+  transform: scale(0.3);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.bounce-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.zoom-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.zoom-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.rotate-in {
+  opacity: 0;
+  transform: rotate(-180deg) scale(0.5);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.rotate-in.visible {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+/* Animaciones específicas del componente */
+.wetalent-card.slide-in-up {
+  transform: translateY(60px) rotateX(15deg) scale(0.9);
+}
+
+.wetalent-card.slide-in-up.visible {
+  transform: translateY(0) rotateX(0deg) scale(1);
+}
+
+/* Efecto de escritura en el span del título */
+.right-section h1 span.typewriter-effect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  animation: typewriter 1.2s steps(20) both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+/* Animaciones de retraso para las tarjetas */
+.talent-cards-container .wetalent-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.talent-cards-container .wetalent-card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.talent-cards-container .wetalent-card:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+/* RESPONSIVE STYLES */
+/* Media queries para mobile */
+@media (max-width: 768px) {
+  .fade-in-up,
+  .slide-in-up {
+    transform: translateY(30px);
+  }
+
+  .fade-in-left {
+    transform: translateX(-30px);
+  }
+
+  .fade-in-right {
+    transform: translateX(30px);
+  }
+
+  .wetalent-card:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+  }
+
+  .main-image {
+    min-height: 300px; /* Ajustado para móviles/tablets pequeñas */
+  }
+}
+
+/* Tablets */
+@media (min-width: 728px) {
+  /* Ya se incluye min-height para main-image arriba */
+}
+
+/* Laptops Pequeñas */
+@media (min-width: 1024px) {
+  .wetalent-container {
+    flex-direction: row;
+    padding: 2rem 3rem;
+    min-height: 70vh;
+    align-items: flex-start;
+    padding-top: 4rem;
+  }
+
+  .wetalent-container .right-section {
+    text-align: start;
+  }
+
+  .wetalent-container .right-section h1 {
+    font-size: 2rem;
+  }
+
+  .wetalent-container .right-section p {
+    font-size: 1.2rem;
+  }
+
+  .wetalent-container
+    .right-section
+    .talent-cards-container
+    .wetalent-card
+    .content-container
+    figure {
+    width: 5rem;
+  }
+
+  .wetalent-container .right-section .talent-cards-container {
+    align-items: flex-start; /* Cambio de start en vez de center */
+  }
+
+  .main-image {
+    min-height: 400px;
+    height: 50vh;
+  }
+
+  .wetalent-container .left-section {
+    margin-top: 2rem;
+  }
+}
+
+/* Laptops medianas */
+@media (min-width: 1280px) {
+  .wetalent-container {
+    padding-top: 5rem;
+    min-height: 75vh;
+  }
+
+  .main-image {
+    min-height: 450px;
+    height: 55vh;
+  }
+
+  .wetalent-container .left-section {
+    margin-top: 5rem;
+  }
+}
+
+/* Pantallas Grandes */
+@media (min-width: 1536px) {
+  .wetalent-container {
+    padding-top: 6rem;
+    min-height: 80vh;
+  }
+
+  .wetalent-container .right-section h1 {
+    font-size: 3rem;
+  }
+
+  .wetalent-container .right-section p {
+    font-size: 1.4rem;
+  }
+
+  .wetalent-container .right-section .talent-cards-container .wetalent-card {
+    max-width: 700px;
+  }
+
+  .main-image {
+    min-height: 500px;
+    height: 60vh;
+  }
+
+  .wetalent-container
+    .right-section
+    .talent-cards-container
+    .wetalent-card
+    .content-container
+    figure {
+    width: 4rem;
+  }
+
+  .wetalent-container .left-section {
+    margin-top: 6rem;
+  }
+}
+
+/* Estilos para preferencia de movimiento reducido (accesibilidad) */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up,
+  .fade-in-left,
+  .fade-in-right,
+  .slide-in-up,
+  .bounce-in,
+  .zoom-in,
+  .rotate-in {
+    transition: none;
+  }
+
+  .right-section h1 span::after {
+    display: none;
+  }
+
+  .main-image::before {
+    animation: none !important;
+  }
+
+  .wetalent-card,
+  .wetalent-card .bg-card img,
+  .wetalent-card .content-container figure,
+  .image-container,
+  .main-image img {
+    transition: none !important;
+    transform: none !important;
+  }
+}

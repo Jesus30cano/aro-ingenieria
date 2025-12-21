@@ -1,0 +1,98 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import "./WeTalent.css";
+---
+
+<section id="we-talent">
+  <div class="wetalent-container">
+    <div class="right-section">
+      <h1 class="fade-in-up" data-delay="0" style="font-size: 2rem;">
+        {translateLabels("wetalent.title")}
+        <span class="slide-in-left" data-delay="200"
+          >{translateLabels("wetalent.title.important")}</span
+        >
+      </h1>
+      <p class="fade-in-up" data-delay="400">
+        {translateLabels("wetalent.description")}
+      </p>
+
+      <div class="talent-cards-container">
+        <div class="first-card wetalent-card slide-in-up" data-delay="600">
+          <figure class="bg-card">
+            <img
+              src="/assets/images/wetalent-first-card.webp"
+              alt={translateLabels("wetalent.first.card.backgroundAlt")}
+            />
+          </figure>
+          <div class="content-container">
+            <figure class="zoom-in" data-delay="800">
+              <img
+                src="/assets/Icons/wetalent-first-icon.svg"
+                alt={translateLabels("wetalent.first.card.iconAlt")}
+              />
+            </figure>
+            <h2 class="fade-in-up" data-delay="900">
+              {translateLabels("wetalent.first.card.title")}
+            </h2>
+          </div>
+        </div>
+
+        <div class="second-card wetalent-card slide-in-up" data-delay="800">
+          <figure class="bg-card">
+            <img
+              src="/assets/images/wetalent-second-card.webp"
+              alt={translateLabels("wetalent.second.card.backgroundAlt")}
+            />
+          </figure>
+          <div class="content-container">
+            <figure class="zoom-in" data-delay="1000">
+              <img
+                src="/assets/Icons/wetalent-second-icon.svg"
+                alt={translateLabels("wetalent.second.card.iconAlt")}
+              />
+            </figure>
+            <h2 class="fade-in-up" data-delay="1100">
+              {translateLabels("wetalent.second.card.title")}
+            </h2>
+          </div>
+        </div>
+
+        <div class="third-card wetalent-card slide-in-up" data-delay="1000">
+          <figure class="bg-card">
+            <img
+              src="/assets/images/wetalent-third-card.webp"
+              alt={translateLabels("wetalent.third.card.backgroundAlt")}
+            />
+          </figure>
+          <div class="content-container">
+            <figure class="zoom-in" data-delay="1200">
+              <img
+                src="/assets/Icons/wetalent-third-icon.svg"
+                alt={translateLabels("wetalent.third.card.iconAlt")}
+              />
+            </figure>
+            <h2 class="fade-in-up" data-delay="1300">
+              {translateLabels("wetalent.third.card.title")}
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="left-section">
+      <div class="image-container fade-in-right" data-delay="500">
+        <figure class="main-image">
+          <img
+            src="/assets/images/Gestionhumana.jpeg"
+            alt={translateLabels("wetalent.main.image.alt")}
+          />
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="./WeTalent.js"></script>

@@ -1,0 +1,53 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import { getMembersData } from "../../data/MembersData.ts";
+const membersData = getMembersData(translateLabels);
+const members = Object.keys(membersData).map((key) => ({
+  id: key,
+  ...membersData[key],
+}));
+import "./Members.css";
+---
+
+<section id="members">
+  <div class="member-section-container">
+    <div class="right-section animate-scroll">
+      <div class="blue-card"></div>
+      <h1>{translateLabels("members.title")}</h1>
+      <p>{translateLabels("members.description")}</p>
+    </div>
+    <div class="left-section animate-scroll">
+      <div class="swiper SwiperMembers">
+        <div class="members-card-container swiper-wrapper">
+          {
+            members.map((member, index) => (
+              <div class="swiper-slide">
+                <div
+                  class="members-card animate-scroll"
+                  style={`animation-delay: ${index * 0.2}s`}
+                >
+                  <figure class="members-card-image">
+                    <img src={member.image} alt={member.imageAlt} />
+                  </figure>
+                  <div class="members-text-container">
+                    <h2>{member.name}</h2>
+                    <p>{member.occupation}</p>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div class="custom-navigation">
+          <div class="swiper-button-prev custom-prev"></div>
+          <div class="swiper-button-next custom-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="./Members.js"></script>

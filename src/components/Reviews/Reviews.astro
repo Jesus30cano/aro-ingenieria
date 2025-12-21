@@ -1,0 +1,49 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import { getReviewsData } from "../../data/ReviewsData";
+import "./Reviews.css";
+const ReviewsData = getReviewsData(translateLabels);
+const reviews = Object.keys(ReviewsData).map((key) => ({
+  id: key,
+  ...ReviewsData[key],
+}));
+---
+
+<section class="review-container" id="reviews">
+  <div class="first-background animate-scroll">
+    <h1>{translateLabels("reviews.title")}</h1>
+  </div>
+  <div class="background-reviews animate-scroll">
+    <div class="swiper SwiperReviews">
+      <div class="swiper-wrapper">
+        {
+          reviews.map((review, index) => (
+            <div class="swiper-slide">
+              <div
+                class="review-card animate-scroll"
+                style={`animation-delay: ${index * 0.15}s`}
+              >
+                <div class="header-card">
+                  <figure>
+                    <img src={review.image} alt={review.imageAlt} />
+                  </figure>
+                  <h2>{review.name}</h2>
+                  <p>{review.occupation}</p>
+                </div>
+                <div class="description">
+                  <p>{review.review}</p>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<script src="./Reviews.js"></script>

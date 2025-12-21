@@ -1,0 +1,20 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import "./Working.css";
+---
+
+<section>
+  <div class="working-container">
+    <div class="working-text-container">
+      <h1>{translateLabels("working.title")}</h1>
+      <p>{translateLabels("working.description")}</p>
+      <button id="workButton">{translateLabels("working.button")}</button>
+    </div>
+  </div>
+</section>
+
+<script src="./working.js"></script>
+<script src="../CVModals/cvModal.js"></script>

@@ -1,0 +1,46 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header/header.astro";
+import HeroSection from "../../components/HeroSection/HeroSection.astro";
+import Services from "../../components/WeServices/Services.astro";
+import Projects from "../../components/Projects/Projects.astro";
+import Reviews from "../../components/Reviews/Reviews.astro";
+import Logos from "../../components/Logos/Logos.astro";
+import AboutUs from "../../components/AboutUs/AboutUs.astro";
+import WeTalent from "../../components/WeTalent/WeTalent.astro";
+import Members from "../../components/Members/Members.astro";
+import Working from "../../components/Working/Working.astro";
+import Footer from "../../components/Footer/footer.astro";
+import Blog from "../../components/Blogs/Blog.astro";
+import CvModal from "../../components/CVModals/cvModal.astro";
+---
+
+<Layout>
+  <div class="bg-image">
+    <Header />
+    <HeroSection />
+  </div>
+  <AboutUs />
+  <Services />
+  <WeTalent />
+  <Projects />
+  <Members />
+  <Reviews />
+  <Logos />
+  <Blog />
+  <Working />
+  <CvModal />
+  <Footer />
+</Layout>
+
+<style is:global>
+  .bg-image {
+    background-image: url("/assets/images/background-herosection.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+</style>
