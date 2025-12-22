@@ -89,7 +89,7 @@
 }
 
 :root {
-  --primary-color: #1aa0d6;
+  --primary-color: #fb000f;
 }
 
 .header-container {
@@ -204,14 +204,14 @@ body.no-scroll {
 }
 
 .header-nav-item a:hover {
-  color: #1aa0d6;
-  border-bottom-color: #1aa0d6;
+  color: #fb000f;
+  border-bottom-color: #fb000f;
   transform: translateX(10px);
 }
 
 .contact-button {
   width: 100%;
-  background: linear-gradient(135deg, #1aa0d6, #0ea5e9);
+  background: linear-gradient(135deg, #fb000f, #c90300);
   background-size: 200% 200%;
   color: white;
   border: none;
@@ -355,13 +355,13 @@ body.no-scroll {
 
 .language-option-mobile:hover {
   background: #f8fafc;
-  border-color: #1aa0d6;
+  border-color: #fb000f;
 }
 
 .language-option-mobile.active {
   background: linear-gradient(135deg, #eff6ff, #f0f9ff);
-  border-color: #1aa0d6;
-  color: #1aa0d6;
+  border-color: #fb000f;
+  color: #fb000f;
 }
 
 .language-option-mobile .language-flag {
@@ -375,7 +375,7 @@ body.no-scroll {
   margin-left: auto;
   opacity: 0;
   transition: opacity 0.3s ease;
-  color: #1aa0d6;
+  color:#fb000f;
   font-weight: bold;
 }
 
@@ -591,7 +591,7 @@ body.no-scroll {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 6px solid #00a0e4;
+    border-bottom: 6px solid #fb000f;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
@@ -695,7 +695,7 @@ body.no-scroll {
     display: inline-block;
     text-align: right;
     font-weight: bold;
-    color: #1976d2;
+    color: #fb000f;
   }
 
   .language-item:hover {
@@ -704,13 +704,13 @@ body.no-scroll {
 
   .language-item.active {
     background: #e3f2fd;
-    color: #1976d2;
+    color: #fb000f;
     font-weight: 500;
   }
 
   .language-item.active::after {
     content: "✓";
-    color: #1976d2;
+    color: #fb000f;
     font-weight: bold;
   }
 
@@ -727,7 +727,7 @@ body.no-scroll {
   }
 
   .desktop-contact-button:hover {
-    background: #0056b3;
+    background: #fb000f;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
   }
