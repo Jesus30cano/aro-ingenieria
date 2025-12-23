@@ -89,7 +89,7 @@
 }
 
 :root {
-  --primary-color: #fb000f;
+  --primary-color: #3e4097;
 }
 
 .header-container {
@@ -119,6 +119,7 @@
   object-fit: cover;
   width: 100%;
   transition: transform 0.3s ease;
+  border-radius: 30%;
 }
 
 .header-logo:hover {
@@ -204,14 +205,14 @@ body.no-scroll {
 }
 
 .header-nav-item a:hover {
-  color: #fb000f;
-  border-bottom-color: #fb000f;
+  color: #3e4097;
+  border-bottom-color: #3e4097;
   transform: translateX(10px);
 }
 
 .contact-button {
   width: 100%;
-  background: linear-gradient(135deg, #fb000f, #c90300);
+  background: linear-gradient(135deg, #3e4097, #2a2c90);
   background-size: 200% 200%;
   color: white;
   border: none;
@@ -355,13 +356,13 @@ body.no-scroll {
 
 .language-option-mobile:hover {
   background: #f8fafc;
-  border-color: #fb000f;
+  border-color: #3e4097;
 }
 
 .language-option-mobile.active {
   background: linear-gradient(135deg, #eff6ff, #f0f9ff);
-  border-color: #fb000f;
-  color: #fb000f;
+  border-color: #3e4097;
+  color: #3e4097;
 }
 
 .language-option-mobile .language-flag {
@@ -375,7 +376,7 @@ body.no-scroll {
   margin-left: auto;
   opacity: 0;
   transition: opacity 0.3s ease;
-  color:#fb000f;
+  color:#3e4097;
   font-weight: bold;
 }
 
@@ -591,7 +592,7 @@ body.no-scroll {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 6px solid #fb000f;
+    border-bottom: 6px solid #3e4097;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
@@ -695,7 +696,7 @@ body.no-scroll {
     display: inline-block;
     text-align: right;
     font-weight: bold;
-    color: #fb000f;
+    color: #3e4097;
   }
 
   .language-item:hover {
@@ -704,13 +705,13 @@ body.no-scroll {
 
   .language-item.active {
     background: #e3f2fd;
-    color: #fb000f;
+    color: #3e4097;
     font-weight: 500;
   }
 
   .language-item.active::after {
     content: "✓";
-    color: #fb000f;
+    color: #3e4097;
     font-weight: bold;
   }
 
@@ -727,7 +728,7 @@ body.no-scroll {
   }
 
   .desktop-contact-button:hover {
-    background: #fb000f;
+    background: #2a2c90;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
   }

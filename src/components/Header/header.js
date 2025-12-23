@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileContactButton = document.querySelector(".contact-button");
 
   // --- Email Configuration ---
-  const emailAddress = "ssspv@hotmail.com"; // Your email address
-  const emailSubject = "Consulta desde el sitio web HSC"; // Optional default subject
+  const emailAddress = "aro-ingenieriacivil@outlook.es"; // Your email address
+  const emailSubject = "Consulta desde el sitio web aro ingenieria"; // Optional default subject
 
   // --- Helper Function for Email ---
   const openEmailClient = () => {

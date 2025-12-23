@@ -3,7 +3,7 @@ title: "Purposeful Educational and Sports Construction"
 description: "The importance of well-built school and sports spaces"
 author: "Your Name"
 date: 2024-06-12T00:00:00.000Z
-image: "/assets/blogs/blog3.jpeg"
+image: "/assets/blogs/blog3333.jpeg"
 tags: ["education", "infrastructure", "sports"]
 lang: "en"
 ---

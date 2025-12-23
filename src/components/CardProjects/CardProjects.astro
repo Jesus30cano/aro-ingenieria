@@ -1,4 +1,8 @@
 ---
+import { useTranslations } from "../../i18n/util";
+import type { languages } from "../../i18n/ui";
+import "./CardProjects.css";
+
 interface Props {
   title: string;
   description: string;
@@ -9,12 +13,13 @@ interface Props {
 
 const currentLang = Astro.currentLocale || "es";
 const translateLabels = useTranslations(currentLang as keyof typeof languages);
-const { title, description, images = [], client, projectId } = Astro.props;
-import type { languages } from "../../i18n/ui";
-import { useTranslations } from "../../i18n/util";
-import "./CardProjects.css";
+
+const { title, description, images = [], client } = Astro.props;
+
+// Imagen aleatoria (se mantiene tu lógica original)
 let randomImageSrc = "";
 let randomImageAlt = "";
+
 if (images.length > 0) {
   const randomIndex = Math.floor(Math.random() * images.length);
   const selectedImage = images[randomIndex];
@@ -24,22 +29,32 @@ if (images.length > 0) {
 ---
 
 <div class="project-card">
+  <!-- Imagen -->
   <div class="project-image-container">
     <figure>
-      <img src={randomImageSrc} alt={randomImageAlt} class="project-image" />
+      <img
+        src={randomImageSrc}
+        alt={randomImageAlt}
+        class="project-image"
+        loading="lazy"
+      />
     </figure>
-    <div class="image-counter">
-      📸 {images.length}
-      {translateLabels("project-card-Imagecounter")}
-    </div>
-  </div>
-  <div class="project-content">
-    <div class="project-client">{client}</div>
-    <h2 class="project-title">{title}</h2>
-    <p class="project-description">{description}</p>
 
-    <button class="view-project-btn btn-open-modal" data-project-id={projectId}>
-      {translateLabels("project-card-button")}
-    </button>
+    <!-- Badge de modelo -->
+    <span class="image-counter">Modelo de Atención</span>
+  </div>
+
+  <!-- Contenido -->
+  <div class="project-content">
+    <!-- Etiqueta superior -->
+    <div class="project-client">
+      {client || translateLabels("project.title")}
+    </div>
+
+    <!-- Título -->
+    <h2 class="project-title">{title}</h2>
+
+    <!-- Descripción -->
+    <p class="project-description">{description}</p>
   </div>
 </div>

@@ -2,23 +2,82 @@
 import { useTranslations } from "../../i18n/util";
 import { languages } from "../../i18n/ui";
 import CardProjects from "../CardProjects/CardProjects.astro";
-const currentLang = Astro.currentLocale || "es";
-const translateLabels = useTranslations(currentLang as keyof typeof languages);
-import { getProjectsData } from "../../data/ProjectsData";
 import "./Projects.css";
 
-const ProjectsData = getProjectsData(translateLabels);
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
 
-const projects = Object.keys(ProjectsData).map((key) => ({
-  id: key,
-  ...ProjectsData[key],
-}));
-
-const projectsDataJSON = JSON.stringify(ProjectsData);
+/**
+ * MODELO DE ATENCIÓN COMERCIAL
+ * Reutilizamos la estructura de projects para mostrar el proceso
+ */
+const projects = [
+  {
+    id: "step-1",
+    title: translateLabels("project-card-first-title"),
+    description: translateLabels("project-card-first-description"),
+    client: "Paso 01",
+    images: [
+      {
+        src: "/assets/images/analisis.webp",
+        alt: translateLabels("project-card-first-alt"),
+      },
+    ],
+  },
+  {
+    id: "step-2",
+    title: translateLabels("project-card-second-title"),
+    description: translateLabels("project-card-second-description"),
+    client: "Paso 02",
+    images: [
+      {
+        src: "/assets/images/diseño.webp",
+        alt: translateLabels("project-card-second-alt"),
+      },
+    ],
+  },
+  {
+    id: "step-3",
+    title: translateLabels("project-card-third-title"),
+    description: translateLabels("project-card-third-description"),
+    client: "Paso 03",
+    images: [
+      {
+        src: "/assets/images/planeacion.webp",
+        alt: translateLabels("project-card-third-alt"),
+      },
+    ],
+  },
+  {
+    id: "step-4",
+    title: translateLabels("project-card-fourth-title"),
+    description: translateLabels("project-card-fourth-description"),
+    client: "Paso 04",
+    images: [
+      {
+        src: "/assets/images/supervision.webp",
+        alt: translateLabels("project-card-fourth-alt"),
+      },
+    ],
+  },
+  {
+    id: "step-5",
+    title: translateLabels("project-card-fifth-title"),
+    description: translateLabels("project-card-fifth-description"),
+    client: "Paso 05",
+    images: [
+      {
+        src: "/assets/images/video-image.webp",
+        alt: translateLabels("project-card-fifth-alt"),
+      },
+    ],
+  },
+];
 ---
 
 <section id="projects">
   <div class="project-section-container">
+    <!-- Header -->
     <div class="bg-section">
       <figure class="shape-container fade-in-up" data-delay="0">
         <img
@@ -27,10 +86,13 @@ const projectsDataJSON = JSON.stringify(ProjectsData);
           alt=""
         />
       </figure>
+
       <h1 class="slide-in-up" data-delay="200">
         {translateLabels("project.title")}
       </h1>
     </div>
+
+    <!-- Swiper -->
     <div class="swiper SwiperProject fade-in-up" data-delay="400">
       <div class="project-card-container swiper-wrapper">
         {
@@ -52,86 +114,14 @@ const projectsDataJSON = JSON.stringify(ProjectsData);
           ))
         }
       </div>
-      <!-- Navigation buttons -->
+
+      <!-- Navigation -->
       <div class="custom-navigation">
-        <div class="swiper-button-prev custom-prev" data-delay="1000"></div>
-        <div class="swiper-button-next custom-next" data-delay="1200"></div>
+        <div class="swiper-button-prev custom-prev"></div>
+        <div class="swiper-button-next custom-next"></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Modal para mostrar detalles del proyecto -->
-<div id="projectModal" class="modal-project">
-  <div class="modal-content">
-    <div class="modal-header">
-      <button class="modal-close">&times;</button>
-      <div class="modal-client" id="modalClient"></div>
-      <h2 class="modal-title" id="modalTitle"></h2>
-    </div>
-    <div class="modal-body">
-      <p class="modal-description" id="modalDescription"></p>
-      <div class="modal-tags" id="modalTags"></div>
-
-      <div class="project-details">
-        <div class="detail-item">
-          <span class="detail-label"
-            >{translateLabels("project.modal.location-label")}:</span
-          >
-          <span class="detail-value" id="modalLocation"></span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label"
-            >{translateLabels("project.modal.duration-label")}:</span
-          >
-          <span class="detail-value" id="modalDuration"></span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label"
-            >{translateLabels("project.modal.type-label")}:</span
-          >
-          <span class="detail-value" id="modalType"></span>
-        </div>
-        <div class="detail-item">
-          <span class="detail-label"
-            >{translateLabels("project.modal.personnel-label")}:</span
-          >
-          <span class="detail-value" id="modalPersonnel"></span>
-        </div>
-      </div>
-
-      <div class="gallery-container">
-        <h3 class="gallery-title">
-          {translateLabels("project.modal.gallery-title")}
-        </h3>
-        <div class="image-gallery" id="modalGallery"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Lightbox para la galería -->
-<div id="lightbox" class="lightbox">
-  <div class="lightbox-content">
-    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
-    <img id="lightboxImage" class="lightbox-image" src="" alt="" />
-    <button
-      class="lightbox-nav lightbox-prev"
-      onclick="changeLightboxImage(-1)"
-    >
-      &#8249;
-    </button>
-    <button class="lightbox-nav lightbox-next" onclick="changeLightboxImage(1)">
-      &#8250;
-    </button>
-  </div>
-</div>
-
 <script src="./Projects.js"></script>
-
-<!-- Inyectar los datos del proyecto como JSON en el HTML -->
-<script
-  type="application/json"
-  id="projects-data"
-  set:html={projectsDataJSON}
-/>

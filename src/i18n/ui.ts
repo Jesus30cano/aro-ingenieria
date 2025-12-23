@@ -136,135 +136,75 @@ export const labels = {
     "wetalent.sixth.card.title": "Edificaciones, urbanismo y proyectos especiales",
     "wetalent.sixth.card.iconAlt": "Icono de una edificacion.",
     "wetalent.sixth.card.backgroundAlt": "",
-    //PROJECT SECTION
-    "project.title": "Obras Civiles que Conectan el Futuro",
-    "project-card-first-title": "Centro Empresarial Nexus",
-    "project-card-first-description":
-      "Un espacio moderno y minimalista diseñado para oficinas de alto nivel, con arquitectura de concreto expuesto y líneas limpias.",
-    "project-card-first-alt":
-      "Interiores de concreto de un centro empresarial con columnas estructurales expuestas.",
-    "project-card-second-title": "Torres SkyLight",
-    "project-card-second-description":
-      "Rascacielos de vidrio reflejante que redefinen el skyline urbano con eficiencia energética y diseño futurista.",
-    "project-card-second-alt":
-      "Vista desde abajo de rascacielos de vidrio azul reflejante bajo un cielo despejado.",
-    "project-card-third-title": "Viaducto Metropolitano",
-    "project-card-third-description":
-      "Infraestructura vial elevada diseñada para mejorar la movilidad urbana con ingeniería moderna y durabilidad.",
-    "project-card-third-alt":
-      "Infraestructura vial elevada diseñada para mejorar la movilidad urbana con ingeniería moderna y durabilidad.",
-    "project-card-button": "Ver Proyecto Completo",
-    "project-card-Imagecounter": "Fotos",
+    // PROJECT SECTION (MODELO DE ATENCIÓN COMERCIAL)
+"project.title": "Modelo de Atención Comercial",
 
-    // Project 1 Translations
-    "project1-title": "Montaje del Tren Laminador",
-    "project1-description":
-      "Proyecto integral de gran envergadura que incluyó el montaje de estructuras metálicas, cubiertas, puente grúa, horno, planta de agua para el tren laminador, montaje de mesa de acabado y atadoras, diseño y pintura de logos Ternium, e instalación, montaje y puesta en marcha del sistema eléctrico completo del laminador. Este proyecto representó un hito en nuestra capacidad técnica y de ejecución.",
-    "project1-duration": " meses",
-    "project1-type": "Montaje Industrial Integral",
-    "project1-personnel": " especialistas",
-    "project1-image1-alt": "Operario soldando en sitio de construcción",
-    "project1-image2-alt": "Trabajadores en construcción con grúa",
-    "project1-image3-alt": "Ingenieros revisando planos en obra",
-    "project1-image4-alt": "Equipo pesado en obra",
-    "project1-image5-alt": "Componentes de maquinaria industrial",
-    "project1-image6-alt": "Vista aérea de complejo industrial",
-    "project1-image7-alt": "Estructura metálica en construcción",
+"project-card-first-title": "Análisis de necesidades del cliente",
+"project-card-first-description":
+  "Analizamos en profundidad los requerimientos técnicos, operativos y financieros del cliente para entender el alcance real del proyecto y proponer la mejor solución.",
+"project-card-first-alt":
+  "Equipo técnico analizando requerimientos y necesidades del cliente.",
 
-    // Project 2 Translations
-    "project2-title": "Diseño y Fabricación de Estructura Cubierta",
-    "project2-description":
-      "Diseño, cálculos estructurales, fabricación y montaje de estructura metálica para cubierta de chatarra en las instalaciones de Manizales. El proyecto incluyó el análisis estructural completo, fabricación de elementos metálicos y montaje especializado con técnicas avanzadas de ingeniería.",
-    "project2-duration": " meses",
-    "project2-type": "Estructura Metálica",
-    "project2-personnel": " especialistas",
-    "project2-image1-alt": "Diseño de estructura metálica",
-    "project2-image2-alt": "Montaje de cubierta industrial",
-    "project2-image3-alt": "Estructura de techo industrial",
-    "project2-image4-alt": "Obra de construcción con armazón de acero",
+"project-card-second-title": "Diseño técnico y propuesta económica",
+"project-card-second-description":
+  "Desarrollamos el diseño técnico del proyecto junto con una propuesta económica optimizada, alineada a los objetivos, presupuesto y tiempos del cliente.",
+"project-card-second-alt":
+  "Ingenieros elaborando diseño técnico y propuesta económica.",
 
-    // Project 3 Translations
-    "project3-title": "Construcción de Pavimentos y Vías",
-    "project3-description":
-      "Construcción integral de pavimentos, vías y muros en concreto, incluyendo infraestructura vial completa y sistema de manejo de aguas. El proyecto abarcó la construcción de más de 2 km de vías internas, pavimentos de alta resistencia y un sistema de drenaje optimizado para el manejo de aguas lluvias.",
-    "project3-duration": " meses",
-    "project3-type": "Obra Civil",
-    "project3-personnel": " especialistas",
-    "project3-image1-alt": "Construcción de carretera",
-    "project3-image2-alt": "Extensión de pavimento",
-    "project3-image3-alt": "Trabajadores en pavimentación",
-    "project3-image4-alt": "Vista aérea de obra vial",
-    "project3-image5-alt": "Drenaje de aguas pluviales en vía",
+"project-card-third-title": "Planeación y ejecución del proyecto",
+"project-card-third-description":
+  "Planificamos y ejecutamos el proyecto bajo un cronograma estructurado, cumpliendo estándares de calidad, seguridad y eficiencia.",
+"project-card-third-alt":
+  "Equipo ejecutando proyecto industrial en campo.",
 
-    // Project 4 Translations
-    "project4-title": "Suministro de Personal Especializado",
-    "project4-description":
-      "Suministro de personal altamente calificado en áreas de ingeniería y mantenimiento: mecánicos industriales certificados, soldadores con certificación internacional, técnicos eléctricos e inspectores de seguridad industrial. El personal proporcionado cuenta con más de 10 años de experiencia promedio en el sector industrial.",
-    "project4-duration": "Contrato anual renovable",
-    "project4-type": "Recursos Humanos Especializados",
-    "project4-personnel": " profesionales",
-    "project4-image1-alt": "Ingeniero industrial en planta",
-    "project4-image2-alt": "Técnico eléctrico revisando panel",
-    "project4-image3-alt": "Equipo de mantenimiento en acción",
+"project-card-fourth-title": "Supervisión, control y entrega final",
+"project-card-fourth-description":
+  "Realizamos seguimiento permanente, control de calidad y entrega final del proyecto conforme a lo pactado con el cliente.",
+"project-card-fourth-alt":
+  "Supervisión técnica y entrega final de proyecto.",
 
-    // Project 5 Translations
-    "project5-title": "Sistema Colector de Material Particulado",
-    "project5-description":
-      "Fabricación de 100 unidades de rack metálicos para placas, montaje e instalación de sistema colector de material particulado con tecnología de filtración avanzada, y fabricación de portones industriales automatizados. El proyecto incluyó la implementación de sistemas de control ambiental y automatización industrial.",
-    "project5-duration": " meses",
-    "project5-type": "Sistema Industrial y Ambiental",
-    "project5-personnel": " especialistas",
-    "project5-image1-alt": "Sistema de filtración de aire",
-    "project5-image2-alt": "Portón industrial automatizado",
-    "project5-image3-alt": "Control de calidad en ambiente industrial",
-    "project5-image4-alt": "Maquinaria de procesamiento de materiales",
-    "project5-image5-alt": "Operación de sistema automatizado",
-    "project5-image6-alt": "Vista interior de instalación con ductos",
+"project-card-fifth-title": "Acompañamiento postventa",
+"project-card-fifth-description":
+  "Brindamos acompañamiento posterior a la entrega, soporte técnico y asesoría para garantizar el correcto funcionamiento y la satisfacción del cliente.",
+"project-card-fifth-alt":
+  "Soporte técnico y acompañamiento postventa al cliente.",
 
-    // Project 6 Translations
-    "project6-title": "Construcción de Instalaciones Deportivas",
-    "project6-description":
-      "Construcción integral de kiosco deportivo con diseño arquitectónico moderno, instalación de grama sintética de última generación en cancha de fútbol, y construcción de placa especializada en pista atlética. El proyecto incluyó sistemas de drenaje, iluminación LED y mobiliario deportivo completo.",
-    "project6-duration": " meses",
-    "project6-type": "Construcción Deportiva y Educativa",
-    "project6-personnel": " especialistas",
-    "project6-image1-alt": "Cancha de fútbol con grama sintética",
-    "project6-image2-alt": "Construcción de kiosco deportivo",
-    "project6-image3-alt": "Pista atlética terminada",
-    "project6-image4-alt": "Instalaciones deportivas modernas",
-    "project.modal.location-label": "Ubicación",
-    "project.modal.duration-label": "Duración",
-    "project.modal.type-label": "Tipo de Proyecto",
-    "project.modal.personnel-label": "Personal Involucrado",
-    "project.modal.gallery-title": "Galería del Proyecto",
+// DIFFERENCIALES COMPETITIVOS
+"members.title": "Diferenciales Competitivos",
+"members.description":
+  "Nuestra fortaleza se basa en capacidades técnicas, experiencia comprobada y un enfoque flexible que nos permite entregar soluciones eficientes, seguras y alineadas a los objetivos de cada cliente.",
 
-    //MEMBERS SECTION
-    "members.title": "El Talento Detrás de Cada Obra",
-    "members.description":
-      "Cada estructura que levantamos tiene una historia, y esa historia comienza con nuestro equipo. Ingenieros, técnicos, operarios y líderes comprometidos que, con pasión, experiencia y precisión, convierten planos en realidades sólidas.",
-    "members.first.card.ocupation": "Fundador",
-    "mebers.first.card.imageAlt":
-      "Un hombre con barba y un casco de seguridad naranja, vistiendo un chaleco reflectante naranja y una camisa oscura, sosteniendo papeles en una obra de construcción.",
-    "members.second.card.ocupation": "Ingeniero Senio",
-    "mebers.second.card.imageAlt":
-      "Un hombre joven sonriendo con un casco de seguridad naranja y un chaleco reflectante naranja, extendiendo su mano para un apretón de manos en una obra de construcción.",
-    "members.third.card.ocupation": "Diseñadora de Interiores",
-    "mebers.third.card.imageAlt":
-      "Una mujer joven sonriendo, con cabello trenzado, gafas de seguridad transparentes y guantes de trabajo naranjas, con un fondo de almacén borroso.",
+"members.first.card.ocupation": "Equipo técnico multidisciplinario",
+"mebers.first.card.imageAlt":
+  "Equipo profesional de ingenieros y técnicos trabajando en conjunto en un proyecto de construcción e ingeniería industrial.",
 
-    //REVIEWS SECTION
-    "reviews.title": "Testimonios de Nuestros Clientes Satisfechos",
-    "reviews.card.first.review":
-      "Lo que más valoramos de Constructora HSC es su capacidad para suministrar personal calificado y certificado. Sus soldadores, electricistas y mecánicos son excepcionales. Han sido nuestro socio estratégico en múltiples proyectos durante los últimos 8 años.",
-    "reviews.card.first.imageAlt": "Una mujer rubia con traje de negocios.",
-    "reviews.card.second.review":
-      "En nuestros proyectos en Barranquilla, Constructora HSC ha demostrado una gran comprensión de las normativas locales y los desafíos específicos de la región. Su equipo no solo es profesional, sino también proactivo en la búsqueda de soluciones eficientes. Estamos muy satisfechos con su colaboración y la calidad de su trabajo.",
-    "reviews.card.second.imageAlt":
-      "Un hombre sonriente con cabello entrecano y barba, vistiendo un saco azul marino y camisa blanca, con los brazos cruzados en un entorno de oficina.",
-    "reviews.card.third.review":
-      "La experiencia trabajando con Constructora HSC ha sido sobresaliente. Su compromiso con la calidad y la puntualidad en cada fase del proyecto es digno de elogio. Definitivamente, son un referente en el sector de la construcción",
-    "reviews.card.third.imageAlt":
-      "Un hombre con gafas y barba, vistiendo un saco de cuadros y camisa blanca con cuello estampado.",
+"members.second.card.ocupation": "Experiencia en proyectos de gran escala",
+"mebers.second.card.imageAlt":
+  "Vista de un proyecto industrial de gran magnitud con estructuras metálicas, maquinaria pesada y personal especializado en operación.",
+
+"members.third.card.ocupation": "Capacidad operativa nacional e internacional",
+"mebers.third.card.imageAlt":
+  "Equipo técnico realizando trabajos de ingeniería y montaje en un entorno industrial moderno de alcance internacional.",
+
+"members.fourth.card.ocupation": "Cumplimiento normativo y estándares de calidad",
+"mebers.fourth.card.imageAlt":
+  "Inspección técnica de obra cumpliendo normativas de seguridad, calidad y procedimientos técnicos certificados.",
+
+"members.fifth.card.ocupation": "Flexibilidad contractual y precios competitivos",
+"mebers.fifth.card.imageAlt":
+  "Reunión estratégica entre equipo técnico y cliente analizando costos, alcances y soluciones adaptadas a cada proyecto."
+    ,
+    // COVERAGE & INTERNATIONAL PROJECTION SECTION
+"reviews.title": "Cobertura y Proyección Internacional",
+
+"reviews.description.first":
+  "ARO Ingeniería e INCCOL Asociados S.A.S. cuentan con la capacidad técnica y logística para ejecutar proyectos en todo el territorio colombiano y en mercados internacionales, garantizando confiabilidad, eficiencia y respaldo empresarial.",
+
+"reviews.description.second":
+  "Estamos preparados para convertirnos en su socio estratégico, aportando soluciones completas, eficientes y sostenibles para el éxito de sus proyectos.",
+
+"reviews.description.third":
+  "Será un gusto acompañarlos y construir juntos.",
 
 
 
@@ -293,13 +233,13 @@ export const labels = {
 
     //FOOTER SECTION
     "footer.description":
-      "HSC se esfuerza por ser un líder intelectual en nuestra industria y brindar información continua y actualizaciones a nuestros clientes",
+      "ARO Ingeniería e INCCOL Asociados S.A.S. trabajan como aliados estratégicos para ofrecer soluciones integrales en ingeniería, construcción y equipamiento industrial, garantizando eficiencia, calidad y cumplimiento en cada proyecto",
     "footer.link.title": "Enlaces Rapido",
     "footer.link.first": "Sobre Nosotros",
     "footer.link.second": "Servicios",
-    "footer.link.third": "Nuestro talento",
-    "footer.link.four": "Miembros",
-    "footer.link.fifth": "Reseñas",
+    "footer.link.third": "Sectores",
+    "footer.link.four": "Modelo de Atención",
+    "footer.link.fifth": "Diferenciales",
     "footer.blog.title": "Noticias Recientes",
     "footer.blog.first.title":
       "Construcción de desarollo habitacional de lujo en la costa atlántica",
@@ -310,261 +250,220 @@ export const labels = {
     "footer.contact.title": "Contactos",
   },
   en: {
-    "nav.logoAlt": "HSC Logo - Services, Supplies and Engineering",
-    "nav.home": "Home",
-    "nav.about": "About Us",
-    "nav.services": "Services",
-    "nav.talent": "Our Talent",
-    "nav.projects": "Projects",
-    "nav.members": "Members",
-    "nav.reviews": "Reviews",
-    "nav.blogs": "Blog",
-    "nav.languages": "Languages",
-    "nav.contact": "Contact Us",
-    "nav.hamburguerAlt": "Open navigation menu",
-    "nav.closeHamburguerAlt": "Close navigation menu",
-    "nav.language": "Language",
-    "nav.desktop.number": "Call us",
-    "nav.desktop.email": "Email us",
-    "nav.desktop.address": "Visit us",
-    "nav.desktop.numberAlt": "Phone number",
-    "nav.desktop.emailAlt": "Email address",
-    "nav.desktop.addressAlt": "Physical address",
-    "hero.title.important": "Make it easier",
-    "hero.title": " to manage construction.",
-    "hero.description":
-      "We provide services with qualified human talent in the design, development, and execution of civil works, industrial assembly, and metal structures, with over 15 years of national experience.",
-    "hero.button": "Get to know us",
-    "hero.imageAlt":
-      "Smiling female construction worker wearing a hard hat, safety glasses, and tools.",
-    "aboutUs.title": "We make projects come true that",
-    "aboutUs.title.important": "Transform",
-    "aboutUs.description":
-      "With highly qualified human talent, we build comprehensive solutions in civil engineering, industrial assembly, and metal structures. We have been providing confidence to the industrial and commercial sector of the North Coast for more than 15 years, with services that combine quality, compliance, and experience.",
-    "aboutUs.list.first": "Personnel certified in multiple trades",
-    "aboutUs.list.second":
-      "Network of professionals in construction and maintenance",
-    "aboutUs.list.third": "20+ years of experience",
-    "aboutUs.list.four": "Civil, industrial, and sanitation projects",
-    "aboutUs.list.fifth": "Trust guaranteed by our clients",
-    "aboutUs.list.iconAlt":
-      "A blue checkmark icon inside an incomplete circle.",
-    "aboutUs.bento.client.title": "20+ Clients",
-    "aboutUs.bento.client.description": "Satisfied with us",
-    "aboutUs.bento.client.imageAlt": "Icon of a worker with a safety helmet",
-    "aboutUs.bento.experience.title": "20+ Years",
-    "aboutUs.bento.experiencie.description": "of experience",
-    "aboutUs.bento.experiencie.imageAlt":
-      "Icon of a clock with a time check mark",
-    "aboutUs.bento.first.imageAlt":
-      "Two engineers or foremen in safety helmets and reflective vests, reviewing blueprints on a construction site with a building under construction in the background.",
-    "aboutUs.bento.second.imageAlt":
-      "Two construction workers in hard hats and safety harnesses, operating on a steel and formwork structure at a construction site.",
-    "aboutUs.bento.third.imageAlt":
-      "A supervisor or engineer in a white hard hat and an executive in a suit, both at a construction site, observing an excavator in the background. A checkmark icon appears in the foreground.",
-    "aboutUs.bento.four.imageAlt":
-      "Close-up of a concrete viaduct with multiple levels of highways and massive pillars, viewed from below.",
-    "wetalent.title": "Certified Talent that Builds",
-    "wetalent.title.important": "Results",
-    "wetalent.description":
-      "We recruit the ideal team for your projects, with highly qualified personnel ready to act. Our approach combines selection expertise and technical knowledge to offer you the best profiles in the construction sector.",
-    "wetalent.first.card.title": "Specialized Evaluation",
-    "wetalent.first.card.iconAlt": "Calendar icon.",
-    "wetalent.first.card.backgroundAlt":
-      "Blurred background image with dark and orange tones, suggesting a construction or industrial environment.",
-    "wetalent.second.card.title": "Precise Selection",
-    "wetalent.second.card.iconAlt": "Tablet or screen with stylus icon.",
-    "wetalent.second.card.backgroundAlt":
-      "Blurred background image with warm and dark tones, suggesting a work or collaboration environment.",
-    "wetalent.third.card.title": "Agility and Compliance",
-    "wetalent.third.card.iconAlt": "Bridge or structure icon.",
-    "wetalent.third.card.backgroundAlt":
-      "Blurred background image with warm colors and silhouettes of metal structures or cranes, suggesting an industrial or construction site.",
-    "wetalent.main.image.alt": "",
-    "service.title": "Our Services",
-    "service.description":
-      "Integral solutions in construction and human talent, with quality, safety, and efficiency. We have a highly trained team to drive your projects from planning to execution.",
-    "service.card.first.iconAlt":
-      "Blue building icon on a white background with rounded corners",
-    "service.card.first.title": "Metal Structures",
-    "service.card.first.description":
-      "We manufacture and assemble welded metal structures that guarantee safety and durability, adapted to the demands of each project.",
-    "service.card.second.iconAlt":
-      "Blue icon of a hammer and a wrench crossed on a white background with rounded corners, representing tools or settings.",
-    "service.card.second.title": "Civil Engineering",
-    "service.card.second.description":
-      "From minor works to large infrastructure, we develop civil construction projects with precision, responsibility, and compliance with technical standards.",
-    "service.card.third.iconAlt":
-      "Blue factory icon with multiple buildings and smoke stacks, symbolizing industry or manufacturing.",
-    "service.card.third.title": "Skilled Labor",
-    "service.card.third.description":
-      "We support you with the ideal human talent for each stage of the construction process. Our personnel are certified and experienced.",
-    "project.title": "Civil Works that Connect the Future",
-    "project-card-first-title": "Nexus Business Center",
-    "project-card-first-description":
-      "A modern and minimalist space designed for high-level offices, featuring exposed concrete architecture and clean lines.",
-    "project-card-first-alt":
-      "Concrete interiors of a business center with exposed structural columns.",
-    "project-card-second-title": "SkyLight Towers",
-    "project-card-second-description":
-      "Reflective glass skyscrapers that redefine the urban skyline with energy efficiency and futuristic design.",
-    "project-card-second-alt":
-      "View from below of reflective blue glass skyscrapers under a clear sky.",
-    "project-card-third-title": "Metropolitan Viaduct",
-    "project-card-third-description":
-      "Elevated road infrastructure designed to improve urban mobility with modern engineering and durability.",
-    "project-card-third-alt":
-      "Elevated road infrastructure designed to improve urban mobility with modern engineering and durability.",
-    "project-card-button": "See the full project",
-    "project-card-Imagecounter": "Photos",
+  // HEADER
+  "nav.logoAlt": "ARO Engineering Logo - Services, Supplies and Engineering",
+  "nav.home": "Home",
+  "nav.about": "About Us",
+  "nav.services": "Services",
+  "nav.talent": "Sectors",
+  "nav.projects": "Service Model",
+  "nav.members": "Differentiators",
+  "nav.reviews": "Coverage",
+  "nav.languages": "Languages",
+  "nav.contact": "Contact Us",
+  "nav.hamburguerAlt": "Open navigation menu",
+  "nav.closeHamburguerAlt": "Close navigation menu",
+  "nav.language": "Language",
+  "nav.desktop.number": "Call us",
+  "nav.desktop.email": "Email us",
+  "nav.desktop.address": "Visit us",
+  "nav.desktop.numberAlt": "Phone number",
+  "nav.desktop.emailAlt": "Email address",
+  "nav.desktop.addressAlt": "Physical address",
 
-    // Project 1 Translations
-    "project1-title": "Rolling Mill Assembly",
-    "project1-description":
-      "Large-scale integral project that included the assembly of metallic structures, roofs, bridge crane, furnace, water treatment plant for the rolling mill, assembly of finishing table and tying machines, design and painting of Ternium logos, and installation, assembly, and commissioning of the complete electrical system of the rolling mill. This project represented a milestone in our technical and execution capacity.",
-    "project1-duration": " months",
-    "project1-type": "Integral Industrial Assembly",
-    "project1-personnel": " specialists",
-    "project1-image1-alt": "Operator welding on construction site",
-    "project1-image2-alt": "Workers on construction with crane",
-    "project1-image3-alt": "Engineers reviewing blueprints on site",
-    "project1-image4-alt": "Heavy equipment on site",
-    "project1-image5-alt": "Industrial machinery components",
-    "project1-image6-alt": "Aerial view of industrial complex",
-    "project1-image7-alt": "Metal structure under construction",
+  // HERO SECTION
+  "hero.title.important": "Integrated engineering solutions",
+  "hero.title": "Construction and industrial equipment.",
+  "hero.description":
+    "We support your projects from design to commissioning, integrating civil works, specialized engineering and industrial equipment under a single contract, optimizing time and costs.",
+  "hero.button": "Learn more",
+  "hero.imageAlt":
+    "Female construction worker wearing a hard hat, safety glasses and tools, smiling.",
 
-    // Project 2 Translations
-    "project2-title": "Design and Fabrication of Roof Structure",
-    "project2-description":
-      "Design, structural calculations, fabrication, and assembly of metallic structure for scrap roof at the Manizales facilities. The project included complete structural analysis, fabrication of metallic elements, and specialized assembly with advanced engineering techniques.",
-    "project2-duration": " months",
-    "project2-type": "Metal Structure",
-    "project2-personnel": " specialists",
-    "project2-image1-alt": "Metal structure design",
-    "project2-image2-alt": "Industrial roof assembly",
-    "project2-image3-alt": "Industrial roof structure",
-    "project2-image4-alt": "Construction site with steel frame",
+  // ABOUT US SECTION
+  "aboutUs.title": "We build solutions that drive",
+  "aboutUs.title.important": "Major projects",
+  "aboutUs.description":
+    "We are a strategic alliance between ARO Engineering and INCCOL Asociados S.A.S., focused on delivering integrated solutions in engineering, construction and industrial equipment. We support each project from design to commissioning, with a results-driven, efficient and compliant approach.",
+  "aboutUs.list.first": "Integrated solutions under a single contract",
+  "aboutUs.list.second": "Reduced execution timelines",
+  "aboutUs.list.third": "Optimization of technical and financial resources",
+  "aboutUs.list.four": "Industrial equipment + civil works + specialized engineering",
+  "aboutUs.list.fifth": "Support from design to commissioning",
+  "aboutUs.list.iconAlt":
+    "Blue checkmark icon inside an incomplete circle.",
+  "aboutUs.bento.client.title": "20+ Clients",
+  "aboutUs.bento.client.description": "Satisfied with our services",
+  "aboutUs.bento.client.imageAlt":
+    "Worker icon wearing a safety helmet",
+  "aboutUs.bento.experience.title": "15+ Years",
+  "aboutUs.bento.experiencie.description": "of experience",
+  "aboutUs.bento.experiencie.imageAlt":
+    "Clock icon representing time experience",
 
-    // Project 3 Translations
-    "project3-title": "Pavement and Road Construction",
-    "project3-description":
-      "Integral construction of pavements, roads, and concrete walls, including complete road infrastructure and water management system. The project covered the construction of more than 2 km of internal roads, high-resistance pavements, and an optimized drainage system for rainwater management.",
-    "project3-duration": " months",
-    "project3-type": "Civil Work",
-    "project3-personnel": " specialists",
-    "project3-image1-alt": "Road construction",
-    "project3-image2-alt": "Pavement extension",
-    "project3-image3-alt": "Workers paving",
-    "project3-image4-alt": "Aerial view of road work",
-    "project3-image5-alt": "Stormwater drainage on road",
+  "aboutUs.bento.first.imageAlt":
+    "Two engineers wearing safety helmets reviewing construction plans on site.",
+  "aboutUs.bento.second.imageAlt":
+    "Construction workers operating on a steel structure with safety equipment.",
+  "aboutUs.bento.third.imageAlt":
+    "Engineer and executive supervising construction machinery on site.",
+  "aboutUs.bento.four.imageAlt":
+    "Close-up view of a concrete viaduct with large structural pillars.",
 
-    // Project 4 Translations
-    "project4-title": "Supply of Specialized Personnel",
-    "project4-description":
-      "Supply of highly qualified personnel in engineering and maintenance areas: certified industrial mechanics, internationally certified welders, electrical technicians, and industrial safety inspectors. The provided personnel have an average of over 10 years of experience in the industrial sector.",
-    "project4-duration": "Renewable annual contract",
-    "project4-type": "Specialized Human Resources",
-    "project4-personnel": " professionals",
-    "project4-image1-alt": "Industrial engineer in plant",
-    "project4-image2-alt": "Electrical technician checking panel",
-    "project4-image3-alt": "Maintenance team in action",
+  // SERVICE SECTION
+  "service.title": "Our Services",
+  "service.description":
+    "We integrate engineering, construction and industrial equipment to deliver efficient, safe and sustainable projects, with a results-oriented service model.",
 
-    // Project 5 Translations
-    "project5-title": "Particulate Matter Collection System",
-    "project5-description":
-      "Fabrication of 100 metallic rack units for plates, assembly and installation of a particulate matter collection system with advanced filtration technology, and fabrication of automated industrial gates. The project included the implementation of environmental control systems and industrial automation.",
-    "project5-duration": " months",
-    "project5-type": "Industrial and Environmental System",
-    "project5-personnel": " specialists",
-    "project5-image1-alt": "Air filtration system",
-    "project5-image2-alt": "Automated industrial gate",
-    "project5-image3-alt": "Quality control in industrial environment",
-    "project5-image4-alt": "Material processing machinery",
-    "project5-image5-alt": "Automated system operation",
-    "project5-image6-alt": "Interior view of installation with ducts",
+  "service.card.first.iconAlt":
+    "Red gear icon on a white rounded background",
+  "service.card.first.title": "Loading dock and handling systems",
+  "service.card.first.description":
+    "Equipment and solutions designed to optimize loading and unloading processes through hydraulic and mechanical dock levelers.",
 
-    // Project 6 Translations
-    "project6-title": "Construction of Sports Facilities",
-    "project6-description":
-      "Integral construction of a modern architectural design sports kiosk, installation of state-of-the-art synthetic turf on a soccer field, and construction of a specialized slab on an athletic track. The project included drainage systems, LED lighting, and complete sports furniture.",
-    "project6-duration": " months",
-    "project6-type": "Sports and Educational Construction",
-    "project6-personnel": " specialists",
-    "project6-image1-alt": "Soccer field with synthetic turf",
-    "project6-image2-alt": "Sports kiosk construction",
-    "project6-image3-alt": "Finished athletic track",
-    "project6-image4-alt": "Modern sports facilities",
-    "project.modal.location-label": "Location",
-    "project.modal.duration-label": "Duration",
-    "project.modal.type-label": "Project Type",
-    "project.modal.personnel-label": "Personnel Involved",
-    "project.modal.gallery-title": "Project Gallery",
+  "service.card.second.iconAlt":
+    "Shield icon on a white rounded background",
+  "service.card.second.title": "Certified industrial doors",
+  "service.card.second.description":
+    "Industrial, high-speed and fire-rated doors that control access, enhance safety and comply with technical regulations.",
 
-    "members.title": "The Talent Behind Every Project",
-    "members.description":
-      "Every structure we build has a story, and that story begins with our team. Committed engineers, technicians, operators, and leaders who, with passion, experience, and precision, turn blueprints into solid realities.",
-    "members.first.card.ocupation": "Founder",
-    "members.first.card.imageAlt":
-      "A man with a beard and an orange hard hat, wearing an orange reflective vest and a dark shirt, holding papers at a construction site.",
-    "members.second.card.ocupation": "Senior Engineer",
-    "members.second.card.imageAlt":
-      "A young man smiling with an orange hard hat and an orange reflective vest, extending his hand for a handshake at a construction site.",
-    "members.third.card.ocupation": "Interior Designer",
-    "members.third.card.imageAlt":
-      "A young woman smiling, with braided hair, clear safety glasses, and orange work gloves, against a blurred warehouse background.",
-    "reviews.title": "Testimonials from Our Satisfied Customers",
-    "reviews.card.first.review":
-      "What we value most about Constructora HSC is their ability to provide qualified and certified personnel. Their welders, electricians, and mechanics are exceptional. They have been our strategic partner in multiple projects over the past 8 years.",
-    "reviews.card.first.imageAlt": "A blonde woman in a business suit.",
-    "reviews.card.second.review":
-      "For our projects in Barranquilla, Constructora HSC has shown a great understanding of local regulations and the specific challenges of the region. Their team is not only professional but also proactive in finding efficient solutions. We are very satisfied with their collaboration and the quality of their work.",
-    "reviews.card.second.imageAlt":
-      "A smiling man with graying hair and a beard, wearing a navy blue suit jacket and white shirt, with his arms crossed in an office setting.",
-    "reviews.card.third.review":
-      "The experience working with Constructora HSC has been outstanding. Their commitment to quality and punctuality in every project phase is commendable. They are definitely a benchmark in the construction sector.",
-    "reviews.card.third.imageAlt":
-      "A man with glasses and a beard, wearing a plaid suit jacket and white shirt with a patterned collar.",
-    "blog.title": "READ OUR BLOG TO GAIN A CLEAR UNDERSTANDING ABOUT US",
-    "blog.modal.author": "Author",
-    "blog.modal.date": "Date",
-    "blog.tags": "Tags",
-    "error.blogNotFound": "Blog not found",
-    "error.loadingError": "Error loading blog",
-    "working.title": "Want to work with us?",
-    "working.description":
-      "Join a team passionate about building the future. We are looking for committed, creative individuals eager to grow.",
-    "working.button": "Upload CV",
-    "working.modal.title": "Join Our Team",
-    "working.modal.subtitle": "Share your CV and contact information",
-    "working.modal.upload-text": " Drag your CV here or click to select",
-    "working.modal.upload-subtext":
-      " Allowed formats: PDF, DOC, DOCX (max. 5MB)",
-    "working.modal.fullname": "Full Name",
-    "working.modal.email": "Email",
-    "working.modal.phone": "Phone Number",
-    "working.modal.position": "Position of Interest",
-    "working.modal.position.placeholder": "Architect, Civil Engineer",
-    "working.modal.optional-message": "Personal Message (Optional)",
-    "working.modal.optional-message.placeholder":
-      "Tell us why you’d like to be part of our team...",
-    "working.modal.button": "Submit Application",
-    "working.modal.success":
-      "Thank you! Your application has been successfully submitted. We’ll be in touch soon.",
-    "footer.description":
-      "HSC strives to be a thought leader in our industry and provide continuous information and updates to our clients.",
-    "footer.link.title": "Quick Links",
-    "footer.link.first": "About Us",
-    "footer.link.second": "Services",
-    "footer.link.third": "Our Talent",
-    "footer.link.four": "Members",
-    "footer.link.fifth": "Reviews",
-    "footer.blog.title": "Recent News",
-    "footer.blog.first.title":
-      "Construction of luxury residential development on the Atlantic coast",
-    "footer.blog.second.title":
-      "How important is structural design in commercial projects",
-    "footer.blog.third.title":
-      "The challenges of specialized industrial construction",
-    "footer.contact.title": "Contacts",
-  },
+  "service.card.third.iconAlt":
+    "Red boxes icon representing logistics",
+  "service.card.third.title": "Dock seals and shelters",
+  "service.card.third.description":
+    "Dock solutions that seal the gap between vehicles and warehouses, protecting interiors from external conditions.",
+
+  "service.card.fourth.iconAlt":
+    "Red crossed tools icon on a white rounded background",
+  "service.card.fourth.title": "Metal structures and storage systems",
+  "service.card.fourth.description":
+    "Design and installation of robust, functional metal structures and industrial storage systems.",
+
+  "service.card.fifth.iconAlt":
+    "Red ventilation fan icon on a white rounded background",
+  "service.card.fifth.title": "Industrial HVAC and ventilation",
+  "service.card.fifth.description":
+    "Industrial systems that optimize comfort, ventilation and thermal control in productive environments.",
+
+  "service.card.sixth.iconAlt":
+    "Red blueprint icon on a white rounded background",
+  "service.card.sixth.title": "Engineering, design and BIM",
+  "service.card.sixth.description":
+    "Technical studies, specialized designs, BIM modeling and project supervision for efficient execution.",
+
+  "service.card.seventh.iconAlt":
+    "Red building icon on a white rounded background",
+  "service.card.seventh.title": "Civil works and infrastructure",
+  "service.card.seventh.description":
+    "Execution of civil, industrial and infrastructure works with high quality and compliance standards.",
+
+  "service.card.eighth.iconAlt":
+    "Red gear icon on a white rounded background",
+  "service.card.eighth.title": "Industrial and mechanical assembly",
+  "service.card.eighth.description":
+    "Assembly of structures, equipment and mechanical systems for industrial and energy sector projects.",
+
+  "service.card.ninth.iconAlt":
+    "Red electricity icon on a white rounded background",
+  "service.card.ninth.title": "Electrical and telecommunications networks",
+  "service.card.ninth.description":
+    "Design and implementation of reliable electrical, telecommunications and power generation systems.",
+
+  "service.card.tenth.iconAlt":
+    "Yellow sun icon on a white rounded background",
+  "service.card.tenth.title": "Renewable energy and sustainability",
+  "service.card.tenth.description":
+    "Sustainable energy solutions that improve efficiency and reduce environmental impact.",
+
+  "service.card.eleventh.iconAlt":
+    "Red service icon on a white rounded background",
+  "service.card.eleventh.title": "Industrial services and operational logistics",
+  "service.card.eleventh.description":
+    "Specialized services that optimize processes, timelines and resources in industrial operations.",
+
+  // WE TALENT / SECTORS
+  "wetalent.title": "Sectors We",
+  "wetalent.title.important": "Drive",
+  "wetalent.description":
+    "We develop integrated solutions for multiple productive sectors, adapting to the technical, operational and regulatory needs of each industry.",
+
+  "wetalent.first.card.title": "Infrastructure and construction",
+  "wetalent.first.card.iconAlt": "House icon",
+
+  "wetalent.second.card.title": "Industry and manufacturing",
+  "wetalent.second.card.iconAlt": "Company icon",
+
+  "wetalent.third.card.title": "Logistics and distribution centers",
+  "wetalent.third.card.iconAlt": "Logistics icon",
+
+  "wetalent.fourth.card.title": "Energy, oil and gas",
+  "wetalent.fourth.card.iconAlt": "Energy icon",
+
+  "wetalent.fifth.card.title": "Mining and natural resources",
+  "wetalent.fifth.card.iconAlt": "Mining icon",
+
+  "wetalent.sixth.card.title": "Buildings, urban development and special projects",
+  "wetalent.sixth.card.iconAlt": "Building icon",
+
+  // PROJECT / SERVICE MODEL
+  "project.title": "Commercial Service Model",
+
+  "project-card-first-title": "Client needs analysis",
+  "project-card-first-description":
+    "We thoroughly analyze technical, operational and financial requirements to define the real project scope and propose the best solution.",
+
+  "project-card-second-title": "Technical design and financial proposal",
+  "project-card-second-description":
+    "We develop the technical design along with an optimized financial proposal aligned with the client’s objectives, budget and schedule.",
+
+  "project-card-third-title": "Project planning and execution",
+  "project-card-third-description":
+    "We plan and execute projects under a structured schedule, ensuring quality, safety and efficiency.",
+
+  "project-card-fourth-title": "Supervision, control and final delivery",
+  "project-card-fourth-description":
+    "Continuous monitoring, quality control and final delivery in accordance with agreed specifications.",
+
+  "project-card-fifth-title": "After-sales support",
+  "project-card-fifth-description":
+    "Post-delivery support, technical assistance and advisory services to ensure proper operation and client satisfaction.",
+
+  // DIFFERENTIALS
+  "members.title": "Competitive Differentiators",
+  "members.description":
+    "Our strength lies in technical capabilities, proven experience and a flexible approach that allows us to deliver efficient and secure solutions aligned with each client’s objectives.",
+
+  "members.first.card.ocupation": "Multidisciplinary technical team",
+  "members.second.card.ocupation": "Experience in large-scale projects",
+  "members.third.card.ocupation": "National and international operational capacity",
+  "members.fourth.card.ocupation": "Regulatory compliance and quality standards",
+  "members.fifth.card.ocupation": "Contractual flexibility and competitive pricing",
+
+  // COVERAGE
+  "reviews.title": "Coverage and International Projection",
+  "reviews.description.first":
+    "ARO Engineering and INCCOL Asociados S.A.S. have the technical and logistical capacity to execute projects throughout Colombia and international markets, ensuring reliability and efficiency.",
+  "reviews.description.second":
+    "We are ready to become your strategic partner, delivering complete, efficient and sustainable solutions.",
+  "reviews.description.third":
+    "It will be a pleasure to support you and build together.",
+
+  // WORKING
+  "working.title": "Want to work with us?",
+  "working.description":
+    "Join a team passionate about building the future. We are looking for committed, creative professionals eager to grow.",
+  "working.button": "Upload CV",
+
+  // FOOTER
+  "footer.description":
+    "ARO Engineering and INCCOL Asociados S.A.S. operate as strategic partners delivering integrated solutions in engineering, construction and industrial equipment, ensuring efficiency, quality and compliance.",
+  "footer.link.title": "Quick Links",
+  "footer.link.first": "About Us",
+  "footer.link.second": "Services",
+  "footer.link.third": "Our Sectors",
+  "footer.link.four": "Differentiators",
+  "footer.link.fifth": "Coverage",
+  "footer.contact.title": "Contact"
+,}
+
 };

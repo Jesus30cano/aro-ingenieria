@@ -21,5 +21,17 @@ export const getMembersData = (
       name: "Sarah Alexon",
       occupation: translateLabels("members.third.card.ocupation"),
     },
+    member4: {
+      image: "/assets/members/members-fourth-card-image.webp",
+      imageAlt: translateLabels("mebers.fourth.card.imageAlt"),
+      name: "Emma Watson",
+      occupation: translateLabels("members.fourth.card.ocupation"),
+    },
+    member5: {
+      image: "/assets/members/members-first-card-image.webp",
+      imageAlt: translateLabels("mebers.fifth.card.imageAlt"),  
+      name: "Olivia Johnson",
+      occupation: translateLabels("members.fifth.card.ocupation"),
+    },
   };
 };
