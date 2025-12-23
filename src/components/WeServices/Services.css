@@ -291,6 +291,14 @@ section {
 .swiper-pagination-bullet:hover {
   transform: scale(1.2);
 }
+.company-name {
+  color: #fee402;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 0.3rem;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .fade-in-up,
@@ -356,7 +364,7 @@ section {
     left: 10px;
     width: 25%;
     height: 140%;
-    background-color: #1aa0d6;
+    background-color: #fb000f;
     z-index: 1;
     padding: 2rem 0;
     border-radius: 15px;

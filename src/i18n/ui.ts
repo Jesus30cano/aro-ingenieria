@@ -6,15 +6,14 @@ export const languages = {
 export const labels = {
   es: {
     //HEADER
-    "nav.logoAlt": "Logo de HSC - Servicios, Suministros e Ingeniería",
+    "nav.logoAlt": "Logo de aro ingenieria - Servicios, Suministros e Ingeniería",
     "nav.home": "Inicio",
     "nav.about": "Sobre Nosotros",
     "nav.services": "Servicios",
-    "nav.talent": "Nuestro Talento",
-    "nav.projects": "Proyectos",
-    "nav.members": "Miembros",
-    "nav.reviews": "Reseñas",
-    "nav.blogs": "Blog",
+    "nav.talent": "Sectores",
+    "nav.projects": "Modelo de Atención",
+    "nav.members": "Diferenciales",
+    "nav.reviews": "Cobertura",
     "nav.languages": "Lenguajes",
     "nav.contact": "Contáctanos",
     "nav.hamburguerAlt": "Abrir menú de navegación",
@@ -28,31 +27,31 @@ export const labels = {
     "nav.desktop.addressAlt": "Dirección física",
 
     //HERO SECTION
-    "hero.title.important": "Haz que sea mas fácil",
-    "hero.title": "Gestionar  la Construccion.",
+    "hero.title.important": "Soluciones integrales en ingeniería",
+    "hero.title": "Construcción y equipamiento industrial.",
     "hero.description":
-      "Prestamos servicios con talento humano calificado en diseño, desarrollo y ejecución de obras civiles, montaje industrial y estructuras metálicas, con más de 15 años de experiencia a nivel nacional.",
+      "Acompañamos sus proyectos desde el diseño hasta la puesta en marcha, integrando obra civil, ingeniería especializada y equipamiento industrial bajo un solo contrato, optimizando tiempos y costos.",
     "hero.button": "Conocenos",
     "hero.imageAlt":
       "Mujer trabajadora de la construcción con casco, gafas de seguridad y herramientas, sonriendo.",
 
     //ABOUT US SECTION
-    "aboutUs.title": "Hacemos realidad proyectos que",
-    "aboutUs.title.important": "Transforman",
+    "aboutUs.title": "Construimos soluciones que impulsan ",
+    "aboutUs.title.important": "Grandes proyectos",
     "aboutUs.description":
-      "Con talento humano altamente calificado, construimos soluciones integrales en ingeniería civil, montaje industrial y estructuras metálicas. Llevamos más de 15 años brindando confianza al sector industrial y comercial de la Costa Norte, con servicios que combinan calidad, cumplimiento y experiencia.",
-    "aboutUs.list.first": "Personal certificado en múltiples oficios",
-    "aboutUs.list.second": "Red de profesionales en obra y mantenimiento",
-    "aboutUs.list.third": " 20+ años de experiencia",
-    "aboutUs.list.four": "Proyectos civiles, industriales y de saneamiento",
-    "aboutUs.list.fifth": "Confianza garantizada por nuestros clientes",
+      "Somos una alianza estratégica entre ARO Ingeniería e INCCOL Asociados S.A.S., dedicada a brindar soluciones integrales en ingeniería, construcción y equipamiento industrial. Acompañamos cada proyecto desde el diseño hasta la puesta en marcha, con un enfoque en resultados, eficiencia y cumplimiento.",
+    "aboutUs.list.first": "Soluciones integrales bajo un solo contrato",
+    "aboutUs.list.second": "Reducción de tiempos de ejecución",
+    "aboutUs.list.third": "Optimización de recursos técnicos y financieros",
+    "aboutUs.list.four": "Equipamiento industrial + obra civil + ingeniería especializada",
+    "aboutUs.list.fifth": "Acompañamiento desde el diseño hasta la puesta en marcha",
     "aboutUs.list.iconAlt":
       "Un ícono de marca de verificación azul dentro de un círculo incompleto.",
     "aboutUs.bento.client.title": "20+ Clientes",
     "aboutUs.bento.client.description": "Satisfechos con nosotros",
     "aboutUs.bento.client.imageAlt":
       "Icono de trabajador con casco de seguridad",
-    "aboutUs.bento.experience.title": "20+ Años",
+    "aboutUs.bento.experience.title": "15+ Años",
     "aboutUs.bento.experiencie.description": "de experiencia",
     "aboutUs.bento.experiencie.imageAlt":
       "Icono de reloj con verificación de tiempo",
@@ -69,42 +68,74 @@ export const labels = {
     //SERVICE SECTION
     "service.title": "Nuestros Servicios",
     "service.description":
-      "Soluciones integrales en construccíon y talento humano, con calidad, seguridad, y eficiencia. Contamos con un equipo altamente capacitado para impulsar tus proyectos desde la planificacion hasta la ejecucion",
+      "Integramos ingeniería, construcción y equipamiento industrial para desarrollar proyectos eficientes, seguros y sostenibles, con un modelo de atención orientado a resultados y cumplimiento.",
     "service.card.first.iconAlt":
-      "Icono de edificio azul sobre fondo blanco con esquinas redondeadas",
-    "service.card.first.title": "Estructuras Metalicas",
+      "Icono de tuerca roja sobre fondo blanco con esquinas redondeadas",
+    "service.card.first.title": "Sistemas de carga y muelle",
     "service.card.first.description":
-      "Fabricamos y montamos estructuras metálicas soldadas que garantizan seguridad y durabilidad, adaptadas a las exigencias de cada proyecto.",
+      "Equipos y soluciones diseñadas para facilitar la carga y descarga de mercancías mediante rampas hidráulicas y mecánicas en muelles logísticos.",
     "service.card.second.iconAlt":
-      "Icono azul de un martillo y una llave cruzados sobre un fondo blanco con esquinas redondeadas, representando herramientas o ajustes.",
-    "service.card.second.title": "Ingeniería Civil",
+      "Icono escudo sobre un fondo blanco con esquinas redondeadas, representando herramientas o ajustes.",
+    "service.card.second.title": "Puertas industriales certificadas",
     "service.card.second.description":
-      "Desde obras menores hasta grandes infraestructuras, desarrollamos proyectos de construcción civil con precisión, responsabilidad y cumplimiento de normas técnicas.",
+      "Sistemas de cierre industrial, rápidas y cortafuego, que controlan accesos, mejoran la seguridad y cumplen normativas técnicas.",
     "service.card.third.iconAlt":
-      "Icono azul de una fábrica con varios edificios y chimeneas, simbolizando industria o manufactura.",
-    "service.card.third.title": "Mano de Obra Calificada",
+      "Icono rojo de cajas, simbolizando industria o manufactura.",
+    "service.card.third.title": "Sellos y abrigos para muelles",
     "service.card.third.description":
-      "Te apoyamos con el talento humano ideal para cada etapa del proceso constructivo. Nuestro personal cuenta con certificación y experiencia.",
-
+      "Elementos instalados en muelles de carga que sellan el área entre el vehículo y la bodega, protegiendo el interior del ambiente exterior.",
+    "service.card.fourth.iconAlt":"Icono rojo de herramientas cruzadas sobre un fondo blanco con esquinas redondeadas.",
+    "service.card.fourth.title":"Infraestructura metálica y almacenamiento",
+    "service.card.fourth.description":"Diseño e instalación de estructuras metálicas y sistemas de almacenamiento robustos y funcionales.",
+    "service.card.fifth.iconAlt":"Icono ventilador rojo sobre fondo blanco con esquinas redondeadas.",
+    "service.card.fifth.title":"Climatización y ventilación industrial",
+    "service.card.fifth.description":"Sistemas industriales que optimizan el confort, la ventilación y el control térmico en espacios productivos.",
+    "service.card.sixth.iconAlt":"Icono de planos rojo sobre fondo blanco con esquinas redondeadas.",
+    "service.card.sixth.title":"Ingeniería, diseño y BIM",
+    "service.card.sixth.description":"Estudios técnicos, diseños especializados, modelación BIM e interventoría para proyectos eficientes y bien controlados.",
+    "service.card.seventh.iconAlt":"Icono de edificio rojo sobre fondo blanco con esquinas redondeadas.",
+    "service.card.seventh.title":"Obras civiles e infraestructura",
+    "service.card.seventh.description":"Ejecución de obras civiles, industriales y de infraestructura con altos estándares de calidad y cumplimiento.",
+    "service.card.eighth.iconAlt":"Icono de tuerca roja sobre fondo blanco con esquinas redondeadas.",
+    "service.card.eighth.title":"Montajes industriales y mecánicos",
+    "service.card.eighth.description":"Montaje de estructuras, equipos y sistemas mecánicos para proyectos industriales y del sector energético.",
+    "service.card.ninth.iconAlt":"Icono de electricidad roja sobre fondo blanco con esquinas redondeadas.",
+    "service.card.ninth.title":"Redes eléctricas y telecomunicaciones",
+    "service.card.ninth.description":"Desarrollo e implementación de redes eléctricas, telecomunicaciones y plantas eléctricas confiables.",
+    "service.card.tenth.iconAlt":"Icono de un sol amarillo sobre fondo blanco con esquinas redondeadas.",
+    "service.card.tenth.title":"Energías renovables y sostenibilidad",
+    "service.card.tenth.description":"Soluciones energéticas sostenibles que impulsan la eficiencia y reducen el impacto ambiental.",
+    "service.card.eleventh.iconAlt":"Icono de servicio rojo sobre fondo blanco con esquinas redondeadas.",
+    "service.card.eleventh.title":"Servicios industriales y logística operativa",
+    "service.card.eleventh.description":"Servicios especializados que optimizan procesos, tiempos y recursos en operaciones industriales.",
     //WE TALENT SECTION
-    "wetalent.title": "Talento Certificado que Construye",
-    "wetalent.title.important": "Resultados",
+    "wetalent.title": "Sectores que",
+    "wetalent.title.important": "Impulsamos",
     "wetalent.description":
-      "Reclutamos el equipo ideal para tus obras, con personal altamente calificado y listo para actuar. Nuestro enfoque combina experiencia en selección y conocimientos técnicos para ofrecerte los mejores perfiles del sector construcción.",
-    "wetalent.first.card.title": "Evaluación Especializada",
-    "wetalent.first.card.iconAlt": "Icono de un calendario.",
+      "Desarrollamos soluciones integrales para diversos sectores productivos, adaptándonos a las necesidades técnicas, operativas y normativas de cada industria.",
+    "wetalent.first.card.title": "Infraestructura y construcción",
+    "wetalent.first.card.iconAlt": "Icono de un casa.",
     "wetalent.first.card.backgroundAlt":
       "Imagen borrosa de fondo con tonos oscuros y naranjas, que sugiere un entorno de construcción o industrial.",
-    "wetalent.second.card.title": "Selección Precisa",
+    "wetalent.second.card.title": "Industria y manufactura",
     "wetalent.second.card.iconAlt":
-      "Icono de una tableta o pantalla con un lápiz óptico.",
+      "Icono de una empresa.",
     "wetalent.second.card.backgroundAlt":
       "Imagen borrosa de fondo con tonos cálidos y oscuros, que sugiere un entorno de trabajo o colaboración.",
-    "wetalent.third.card.title": "Agilidad y Cumplimiento",
-    "wetalent.third.card.iconAlt": "Icono de un puente o estructura.",
+    "wetalent.third.card.title": "Logística y centros de distribución",
+    "wetalent.third.card.iconAlt": "Icono de un logistica.",
     "wetalent.third.card.backgroundAlt":
       "Imagen de fondo borrosa con colores cálidos y siluetas de estructuras metálicas o grúas, sugiriendo un sitio industrial o de construcción.",
     "wetalent.main.image.alt": "",
+    "wetalent.fourth.card.title": "Energía, petróleo y gas",
+    "wetalent.fourth.card.iconAlt": "Icono de un energia.",
+    "wetalent.fourth.card.backgroundAlt": "",
+    "wetalent.fifth.card.title": "Minería y recursos naturales",
+    "wetalent.fifth.card.iconAlt": "Icono de una mineria.",
+    "wetalent.fifth.card.backgroundAlt": "",
+    "wetalent.sixth.card.title": "Edificaciones, urbanismo y proyectos especiales",
+    "wetalent.sixth.card.iconAlt": "Icono de una edificacion.",
+    "wetalent.sixth.card.backgroundAlt": "",
     //PROJECT SECTION
     "project.title": "Obras Civiles que Conectan el Futuro",
     "project-card-first-title": "Centro Empresarial Nexus",
@@ -235,14 +266,7 @@ export const labels = {
     "reviews.card.third.imageAlt":
       "Un hombre con gafas y barba, vistiendo un saco de cuadros y camisa blanca con cuello estampado.",
 
-    //BLOGS SECTION
-    "blog.title":
-      "LEE NUESTRO BLOG PARA TENER UN CONOCIMIENTO CLARO SOBRE NOSOTROS",
-    "blog.modal.author": "Autor",
-    "blog.modal.date": "Fecha",
-    "blog.tags": "Etiquetas",
-    "error.blogNotFound": "Blog no encontrado",
-    "error.loadingError": "Error al cargar el blog",
+
 
     //WORKING SECTION
     "working.title": "¿Quieres trabajar con nosotros?",
