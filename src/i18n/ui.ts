@@ -27,10 +27,10 @@ export const labels = {
     "nav.desktop.addressAlt": "Dirección física",
 
     //HERO SECTION
-    "hero.title.important": "Soluciones integrales en ingeniería",
-    "hero.title": "Construcción y equipamiento industrial.",
+    "hero.title.important": "Un Solo Contrato",
+    "hero.title": "Soluciones Integrales.",
     "hero.description":
-      "Acompañamos sus proyectos desde el diseño hasta la puesta en marcha, integrando obra civil, ingeniería especializada y equipamiento industrial bajo un solo contrato, optimizando tiempos y costos.",
+      "La alianza entre ARO Ingeniería e INCCOL Asociados unifica la obra civil y el equipamiento industrial. Optimizamos sus recursos técnicos y financieros desde el diseño con modelación BIM hasta la puesta en marcha, garantizando reducción en tiempos de ejecución en todo el territorio nacional e internacional.",
     "hero.button": "Conocenos",
     "hero.imageAlt":
       "Mujer trabajadora de la construcción con casco, gafas de seguridad y herramientas, sonriendo.",
@@ -272,10 +272,10 @@ export const labels = {
   "nav.desktop.addressAlt": "Physical address",
 
   // HERO SECTION
-  "hero.title.important": "Integrated engineering solutions",
-  "hero.title": "Construction and industrial equipment.",
+  "hero.title.important": "A Single Contract",
+  "hero.title": "Comprehensive Solutions.",
   "hero.description":
-    "We support your projects from design to commissioning, integrating civil works, specialized engineering and industrial equipment under a single contract, optimizing time and costs.",
+    "The alliance between ARO Ingeniería and INCCOL Asociados unifies civil engineering and industrial equipment. We optimize your technical and financial resources from BIM modeling design to commissioning, guaranteeing reduced execution times throughout Spain and internationally.",
   "hero.button": "Learn more",
   "hero.imageAlt":
     "Female construction worker wearing a hard hat, safety glasses and tools, smiling.",
