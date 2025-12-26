@@ -95,25 +95,7 @@ const sortedBlogs = allBlogs.sort(
           </li>
         </ul>
       </div>
-      <div class="footer-third-section animate-scroll">
-        <h2>{translateLabels("footer.blog.title")}</h2>
-        <div class="blogs-container">
-          {
-            sortedBlogs.map((blog, index) => (
-              <div
-                class="blog-item animate-scroll"
-                style={`animation-delay: ${index * 0.1}`}
-                data-slug={blog.slug}
-              >
-                <figure>
-                  <img src={blog.data.image} alt="" />
-                </figure>
-                <p>{blog.data.description}</p>
-              </div>
-            ))
-          }
-        </div>
-      </div>
+      
       <div class="footer-four-section animate-scroll">
         <h2>{translateLabels("footer.contact.title")}</h2>
         <div class="contact-container">

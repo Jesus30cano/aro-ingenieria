@@ -209,10 +209,10 @@ export const labels = {
 
 
     //WORKING SECTION
-    "working.title": "¿Quieres trabajar con nosotros?",
+    "working.title": "¿Listo para tu próximo proyecto?",
     "working.description":
-      "Únete a un equipo apasionado por construir el futuro. Buscamos personas comprometidas, creativas y con ganas de crecer.",
-    "working.button": "Subir CV",
+      "Revisa lo que somos capaces de construir. Descarga nuestro portafolio y visualiza el estándar de calidad que podemos aportar a tu empresa.",
+    "working.button": "Portafolio",
     "working.modal.title": "Únete a Nuestro Equipo",
     "working.modal.subtitle": "Comparte tu CV y datos de contacto",
     "working.modal.upload-text":
@@ -449,10 +449,10 @@ export const labels = {
     "It will be a pleasure to support you and build together.",
 
   // WORKING
-  "working.title": "Want to work with us?",
+  "working.title": "Ready for your next project?",
   "working.description":
-    "Join a team passionate about building the future. We are looking for committed, creative professionals eager to grow.",
-  "working.button": "Upload CV",
+    "See what we are capable of building. Download our portfolio and see the standard of quality we can bring to your company.",
+  "working.button": "Portfolio",
 
   // FOOTER
   "footer.description":
