@@ -6,15 +6,18 @@ const translateLabels = useTranslations(currentLang as keyof typeof languages);
 import "./Working.css";
 ---
 
-<section>
-  <div class="working-container">
-    <div class="working-text-container">
-      <h1>{translateLabels("working.title")}</h1>
-      <p>{translateLabels("working.description")}</p>
-      <button id="workButton">{translateLabels("working.button")}</button>
+<section class="portfolio-download-section" id="downloadPortfolio">
+  <div class="portfolio-card working-text-container">
+    <div class="content-wrapper">
+      <h2 class="section-title">{translateLabels("working.title")}</h2>
+      <p class="section-description">{translateLabels("working.description")}</p>
+      
+      <button id="workButton" class="download-btn">
+        <span class="btn-text">{translateLabels("working.button")}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      </button>
     </div>
   </div>
 </section>
 
 <script src="./working.js"></script>
-<script src="../CVModals/cvModal.js"></script>

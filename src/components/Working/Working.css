@@ -1,57 +1,94 @@
-.working-container {
-  background-image: url("/assets/images/background-working.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+/* --- CONFIGURACIÓN DE LA SECCIÓN (CONTENEDOR PADRE) --- */
+.portfolio-download-section {
+  width: 100%;
+  position: relative;
+  /* Fondo blanco translúcido o muy suave para diferenciar de la imagen anterior */
+  background: linear-gradient(to bottom, #ffffff 0%, #f9fafb 100%);
+  padding: 4rem 1.5rem; /* Espaciado generoso arriba y abajo */
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+/* --- TARJETA PRINCIPAL (CARD) --- */
+.portfolio-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 900px; /* Ancho máximo controlado para que no se estire demasiado */
+  border-radius: 24px; /* Bordes suaves y modernos */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); /* Sombra elegante, tipo "elevación" */
+  border: 1px solid rgba(0, 0, 0, 0.04); /* Borde sutil para definición */
+  padding: 3rem 2rem;
   text-align: center;
-}
-.working-container .working-text-container {
-  background: linear-gradient(
-    to right,
-    rgba(26, 26, 26, 1) 0%,
-    rgba(26, 26, 26, 0.5) 30%,
-    rgba(26, 26, 26, 0.5) 97%
-  );
-  padding: 2rem;
+  position: relative;
+  z-index: 10;
 }
 
-.working-container h1 {
+/* --- TIPOGRAFÍA --- */
+.portfolio-card h2 {
+  font-family: "Work Sans", sans-serif;
   font-size: 2rem;
-  color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: #1a1a1a; /* Gris muy oscuro, casi negro, para contraste alto */
   margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
-.working-container p {
-  font-size: 1.2rem;
-  color: #fff;
+.portfolio-card p {
   font-family: "Work Sans", sans-serif;
-  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  color: #555555; /* Gris medio para el texto descriptivo */
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.working-container button {
+/* --- BOTÓN DE DESCARGA --- */
+.download-btn {
   background-color: #1aa0d6;
-  color: #fff;
+  color: #ffffff;
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 2rem;
   font-size: 1rem;
   font-family: "Work Sans", sans-serif;
+  font-weight: 600;
   cursor: pointer;
-  border-radius: 15px;
-  transition: background-color 0.3s ease;
+  border-radius: 50px; /* Pill shape (redondo completo) es más moderno */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem; /* Espacio entre texto e icono */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 14px rgba(26, 160, 214, 0.3); /* Sombra "glow" del color del botón */
 }
+
+.download-btn:hover {
+  background-color: #158bbd;
+  transform: translateY(-2px); /* Pequeña elevación al hover */
+  box-shadow: 0 6px 20px rgba(26, 160, 214, 0.4);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+}
+
+.icon-download {
+  transition: transform 0.3s ease;
+}
+
+.download-btn:hover .icon-download {
+  transform: translateY(2px); /* Pequeña animación del icono hacia abajo */
+}
+
+/* --- ANIMACIONES (MANTENIENDO LÓGICA EXISTENTE) --- */
+/* Estas clases coinciden con lo que espera tu JS existente */
 
 .working-text-container {
   opacity: 0;
-  transform: translateY(50px);
-  transition: all 0.8s ease-out;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .working-text-container.animate {
@@ -59,75 +96,56 @@
   transform: translateY(0);
 }
 
-.working-text-container h1 {
-  transform: translateY(30px);
+/* Animación en cascada para los elementos internos */
+.portfolio-card h2,
+.portfolio-card p,
+.portfolio-card button {
   opacity: 0;
-  transition: all 0.6s ease-out 0.2s;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-.working-text-container.animate h1 {
-  transform: translateY(0);
+.working-text-container.animate h2 {
   opacity: 1;
-}
-
-.working-text-container p {
-  transform: translateY(30px);
-  opacity: 0;
-  transition: all 0.6s ease-out 0.4s;
+  transform: translateY(0);
+  transition-delay: 0.1s;
 }
 
 .working-text-container.animate p {
-  transform: translateY(0);
   opacity: 1;
-}
-
-.working-text-container button {
-  transform: translateY(30px);
-  opacity: 0;
-  transition: all 0.6s ease-out 0.6s;
+  transform: translateY(0);
+  transition-delay: 0.2s;
 }
 
 .working-text-container.animate button {
-  transform: translateY(0);
   opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
 }
 
-/* RESPONSIVE STYLES */
+/* --- RESPONSIVE --- */
 
-/* Tablets */
-@media (min-width: 728px) {
-}
-
-/* Laptos Pequeñas */
-@media (min-width: 1024px) {
-  .working-container {
-    display: flex;
-    justify-content: center;
-    align-items: end;
+/* Tablet y superior */
+@media (min-width: 768px) {
+  .portfolio-download-section {
+    padding: 5rem 2rem;
+  }
+  
+  .portfolio-card {
+    padding: 4rem 3rem;
   }
 
-  .working-container .working-text-container {
-    padding: 3rem;
-    width: 50%;
-  }
-  .working-container .working-text-container h1 {
+  .portfolio-card h2 {
     font-size: 2.5rem;
   }
-
-  .working-container .working-text-container p {
-    font-size: 1.3rem;
-  }
-
-  .working-container .working-text-container button {
-    font-size: 1.6rem;
-    padding: 1rem 2rem;
-  }
 }
 
-/* Laptops medianas */
-@media (min-width: 1280px) {
-}
-
-/* Pantallas Grandes */
-@media (min-width: 1536px) {
+/* Laptop */
+@media (min-width: 1024px) {
+  /* Si quieres que la tarjeta sea más ancha en pantallas grandes */
+  .portfolio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
