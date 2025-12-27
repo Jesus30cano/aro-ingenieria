@@ -27,24 +27,25 @@ export const labels = {
     "nav.desktop.addressAlt": "Dirección física",
 
     //HERO SECTION
-    "hero.title.important": "Un Solo Contrato",
-    "hero.title": "Soluciones Integrales.",
+    "hero.title.important": "Soluciones Industriales",
+    "hero.title": "Que Mueven su Negocio.",
     "hero.description":
-      "La alianza entre ARO Ingeniería e INCCOL Asociados unifica la obra civil y el equipamiento industrial. Optimizamos sus recursos técnicos y financieros desde el diseño con modelación BIM hasta la puesta en marcha, garantizando reducción en tiempos de ejecución en todo el territorio nacional e internacional.",
+      "Más de 15 años ofreciendo equipos, instalación y mantenimiento industrial con altos estándares de calidad.",
     "hero.button": "Conocenos",
     "hero.imageAlt":
       "Mujer trabajadora de la construcción con casco, gafas de seguridad y herramientas, sonriendo.",
 
     //ABOUT US SECTION
-    "aboutUs.title": "Construimos soluciones que impulsan ",
-    "aboutUs.title.important": "Grandes proyectos",
+    "aboutUs.title": "Soluciones Industriales que Impulsan su ",
+    "aboutUs.title.important": "Operación",
     "aboutUs.description":
-      "Somos una alianza estratégica entre ARO Ingeniería e INCCOL Asociados S.A.S., dedicada a brindar soluciones integrales en ingeniería, construcción y equipamiento industrial. Acompañamos cada proyecto desde el diseño hasta la puesta en marcha, con un enfoque en resultados, eficiencia y cumplimiento.",
-    "aboutUs.list.first": "Soluciones integrales bajo un solo contrato",
-    "aboutUs.list.second": "Reducción de tiempos de ejecución",
-    "aboutUs.list.third": "Optimización de recursos técnicos y financieros",
-    "aboutUs.list.four": "Equipamiento industrial + obra civil + ingeniería especializada",
-    "aboutUs.list.fifth": "Acompañamiento desde el diseño hasta la puesta en marcha",
+      "En ARO Ingeniería Civil desarrollamos soluciones eficientes para el sector comercial e industrial. Con más de 15 años de experiencia, ofrecemos importación, instalación y mantenimiento de equipos industriales, combinando asesoría técnica, calidad y tecnología para garantizar resultados confiables en cada proyecto.",
+    "aboutUs.list.first": "Importación y suministro de equipos industriales",
+    "aboutUs.list.second": "Instalación y mantenimiento especializado",
+    "aboutUs.list.third": "Automatización de accesos y sistemas de carga",
+    "aboutUs.list.four": "Mezanines estructurales y estantería industrial",
+    "aboutUs.list.fifth": "Rampas hidráulicas y mecánicas para muelles",
+    "aboutUs.list.sixth": "Asesoría técnica y desarrollo de planos",
     "aboutUs.list.iconAlt":
       "Un ícono de marca de verificación azul dentro de un círculo incompleto.",
     "aboutUs.bento.client.title": "20+ Clientes",
@@ -68,7 +69,7 @@ export const labels = {
     //SERVICE SECTION
     "service.title": "Nuestros Servicios",
     "service.description":
-      "Integramos ingeniería, construcción y equipamiento industrial para desarrollar proyectos eficientes, seguros y sostenibles, con un modelo de atención orientado a resultados y cumplimiento.",
+      "Soluciones industriales especializadas para optimizar accesos, carga y almacenamiento, respaldadas por experiencia, tecnología y un servicio confiable de principio a fin.",
     "service.card.first.iconAlt":
       "Icono de tuerca roja sobre fondo blanco con esquinas redondeadas",
     "service.card.first.title": "Sistemas de carga y muelle",
@@ -108,7 +109,7 @@ export const labels = {
     "service.card.eleventh.iconAlt":"Icono de servicio rojo sobre fondo blanco con esquinas redondeadas.",
     "service.card.eleventh.title":"Servicios industriales y logística operativa",
     "service.card.eleventh.description":"Servicios especializados que optimizan procesos, tiempos y recursos en operaciones industriales.",
-    //WE TALENT SECTION
+      //WE TALENT SECTION
     "wetalent.title": "Sectores que",
     "wetalent.title.important": "Impulsamos",
     "wetalent.description":
@@ -195,13 +196,13 @@ export const labels = {
   "Reunión estratégica entre equipo técnico y cliente analizando costos, alcances y soluciones adaptadas a cada proyecto."
     ,
     // COVERAGE & INTERNATIONAL PROJECTION SECTION
-"reviews.title": "Cobertura y Proyección Internacional",
+"reviews.title": "Cobertura Nacional e Internacional",
 
 "reviews.description.first":
-  "ARO Ingeniería e INCCOL Asociados S.A.S. cuentan con la capacidad técnica y logística para ejecutar proyectos en todo el territorio colombiano y en mercados internacionales, garantizando confiabilidad, eficiencia y respaldo empresarial.",
+  "En ARO Ingeniería Civil contamos con la capacidad técnica y logística para ejecutar proyectos en todo el territorio colombiano, ofreciendo soluciones industriales confiables, eficientes y con respaldo profesional.",
 
 "reviews.description.second":
-  "Estamos preparados para convertirnos en su socio estratégico, aportando soluciones completas, eficientes y sostenibles para el éxito de sus proyectos.",
+  "Estamos listos para convertirnos en su aliado estratégico y acompañarlo en cada etapa de su proyecto.",
 
 "reviews.description.third":
   "Será un gusto acompañarlos y construir juntos.",
@@ -230,10 +231,22 @@ export const labels = {
     "working.modal.button": "Enviar Aplicación",
     "working.modal.success":
       " ¡Gracias! Tu aplicación ha sido enviada exitosamente. Te contactaremos pronto.",
+    //logos section
+    "logos.title": "Aliados que creen en nuestro compromiso",
+    //alliance section
+    "alliance.title": "Una Alianza Estratégica",
+    "alliance.titleHero": "Servicios",
+
+    "alliance.companyName": "INCCOL ASOCIADOS S.A.S.",
+    "alliance.companyDescription":
+      "INCCOL ASOCIADOS S.A.S. es una empresa colombiana con más de 15 años de experiencia en la importación, instalación y mantenimiento de equipos industriales.",
+      "alliance.companyDescription2": " Nos especializamos en ofrecer soluciones integrales que optimizan los procesos logísticos y operativos de nuestros clientes, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
+      
+    
 
     //FOOTER SECTION
     "footer.description":
-      "ARO Ingeniería e INCCOL Asociados S.A.S. trabajan como aliados estratégicos para ofrecer soluciones integrales en ingeniería, construcción y equipamiento industrial, garantizando eficiencia, calidad y cumplimiento en cada proyecto",
+      "ARO Ingeniería Civil es una empresa nacional especializada en soluciones industriales, enfocada en la importación, instalación y mantenimiento de equipos comerciales e industriales, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
     "footer.link.title": "Enlaces Rapido",
     "footer.link.first": "Sobre Nosotros",
     "footer.link.second": "Servicios",
@@ -250,48 +263,49 @@ export const labels = {
     "footer.contact.title": "Contactos",
   },
   en: {
-  // HEADER
-  "nav.logoAlt": "ARO Engineering Logo - Services, Supplies and Engineering",
+  //HEADER
+  "nav.logoAlt": "ARO Ingeniería logo – Services, Supplies and Engineering",
   "nav.home": "Home",
   "nav.about": "About Us",
   "nav.services": "Services",
   "nav.talent": "Sectors",
   "nav.projects": "Service Model",
-  "nav.members": "Differentiators",
+  "nav.members": "Differentials",
   "nav.reviews": "Coverage",
   "nav.languages": "Languages",
   "nav.contact": "Contact Us",
   "nav.hamburguerAlt": "Open navigation menu",
   "nav.closeHamburguerAlt": "Close navigation menu",
   "nav.language": "Language",
-  "nav.desktop.number": "Call us",
-  "nav.desktop.email": "Email us",
-  "nav.desktop.address": "Visit us",
+  "nav.desktop.number": "Call Us",
+  "nav.desktop.email": "Email Us",
+  "nav.desktop.address": "Visit Us",
   "nav.desktop.numberAlt": "Phone number",
   "nav.desktop.emailAlt": "Email address",
   "nav.desktop.addressAlt": "Physical address",
 
-  // HERO SECTION
-  "hero.title.important": "A Single Contract",
-  "hero.title": "Comprehensive Solutions.",
+  //HERO SECTION
+  "hero.title.important": "Industrial Solutions",
+  "hero.title": "That Drive Your Business.",
   "hero.description":
-    "The alliance between ARO Ingeniería and INCCOL Asociados unifies civil engineering and industrial equipment. We optimize your technical and financial resources from BIM modeling design to commissioning, guaranteeing reduced execution times throughout Spain and internationally.",
-  "hero.button": "Learn more",
+    "Over 15 years providing industrial equipment, installation, and maintenance with high quality standards.",
+  "hero.button": "Get to Know Us",
   "hero.imageAlt":
-    "Female construction worker wearing a hard hat, safety glasses and tools, smiling.",
+    "Female construction worker wearing a helmet, safety glasses, and tools, smiling.",
 
-  // ABOUT US SECTION
-  "aboutUs.title": "We build solutions that drive",
-  "aboutUs.title.important": "Major projects",
+  //ABOUT US SECTION
+  "aboutUs.title": "Industrial Solutions That Drive Your ",
+  "aboutUs.title.important": "Operations",
   "aboutUs.description":
-    "We are a strategic alliance between ARO Engineering and INCCOL Asociados S.A.S., focused on delivering integrated solutions in engineering, construction and industrial equipment. We support each project from design to commissioning, with a results-driven, efficient and compliant approach.",
-  "aboutUs.list.first": "Integrated solutions under a single contract",
-  "aboutUs.list.second": "Reduced execution timelines",
-  "aboutUs.list.third": "Optimization of technical and financial resources",
-  "aboutUs.list.four": "Industrial equipment + civil works + specialized engineering",
-  "aboutUs.list.fifth": "Support from design to commissioning",
+    "At ARO Ingeniería Civil, we develop efficient solutions for the commercial and industrial sectors. With over 15 years of experience, we provide importation, installation, and maintenance of industrial equipment, combining technical consulting, quality, and technology to ensure reliable results in every project.",
+  "aboutUs.list.first": "Import and supply of industrial equipment",
+  "aboutUs.list.second": "Specialized installation and maintenance",
+  "aboutUs.list.third": "Access automation and loading systems",
+  "aboutUs.list.four": "Structural mezzanines and industrial racking",
+  "aboutUs.list.fifth": "Hydraulic and mechanical dock levelers",
+  "aboutUs.list.sixth": "Technical consulting and blueprint development",
   "aboutUs.list.iconAlt":
-    "Blue checkmark icon inside an incomplete circle.",
+    "A blue checkmark brand icon inside an incomplete circle.",
   "aboutUs.bento.client.title": "20+ Clients",
   "aboutUs.bento.client.description": "Satisfied with our services",
   "aboutUs.bento.client.imageAlt":
@@ -299,171 +313,251 @@ export const labels = {
   "aboutUs.bento.experience.title": "15+ Years",
   "aboutUs.bento.experiencie.description": "of experience",
   "aboutUs.bento.experiencie.imageAlt":
-    "Clock icon representing time experience",
+    "Clock icon with time verification",
 
   "aboutUs.bento.first.imageAlt":
-    "Two engineers wearing safety helmets reviewing construction plans on site.",
+    "Two engineers or foremen wearing safety helmets and reflective vests, reviewing blueprints at a construction site with a building under development in the background.",
   "aboutUs.bento.second.imageAlt":
-    "Construction workers operating on a steel structure with safety equipment.",
+    "Two construction workers wearing helmets and safety harnesses, working on a steel structure and formwork at a construction site.",
   "aboutUs.bento.third.imageAlt":
-    "Engineer and executive supervising construction machinery on site.",
+    "A supervisor or engineer wearing a white helmet and an executive in a suit at a construction site, observing an excavator in the background. A checkmark brand icon appears in the foreground.",
   "aboutUs.bento.four.imageAlt":
-    "Close-up view of a concrete viaduct with large structural pillars.",
+    "Close-up view of a concrete viaduct with multiple highway levels and massive pillars, seen from below.",
 
-  // SERVICE SECTION
+  //SERVICE SECTION
   "service.title": "Our Services",
   "service.description":
-    "We integrate engineering, construction and industrial equipment to deliver efficient, safe and sustainable projects, with a results-oriented service model.",
-
+    "Specialized industrial solutions to optimize access, loading, and storage, backed by experience, technology, and reliable service from start to finish.",
   "service.card.first.iconAlt":
-    "Red gear icon on a white rounded background",
-  "service.card.first.title": "Loading dock and handling systems",
+    "Red nut icon on a white background with rounded corners",
+  "service.card.first.title": "Loading dock and access systems",
   "service.card.first.description":
-    "Equipment and solutions designed to optimize loading and unloading processes through hydraulic and mechanical dock levelers.",
-
+    "Equipment and solutions designed to facilitate loading and unloading operations through hydraulic and mechanical dock levelers.",
   "service.card.second.iconAlt":
-    "Shield icon on a white rounded background",
+    "Shield icon on a white background with rounded corners, representing tools or adjustments.",
   "service.card.second.title": "Certified industrial doors",
   "service.card.second.description":
-    "Industrial, high-speed and fire-rated doors that control access, enhance safety and comply with technical regulations.",
-
+    "Industrial, high-speed, and fire-rated door systems that control access, enhance safety, and comply with technical regulations.",
   "service.card.third.iconAlt":
-    "Red boxes icon representing logistics",
+    "Red box icon symbolizing industry or manufacturing.",
   "service.card.third.title": "Dock seals and shelters",
   "service.card.third.description":
-    "Dock solutions that seal the gap between vehicles and warehouses, protecting interiors from external conditions.",
-
+    "Dock-installed elements that seal the space between the vehicle and the warehouse, protecting the interior from external conditions.",
   "service.card.fourth.iconAlt":
-    "Red crossed tools icon on a white rounded background",
-  "service.card.fourth.title": "Metal structures and storage systems",
+    "Red crossed tools icon on a white background with rounded corners.",
+  "service.card.fourth.title":
+    "Metal infrastructure and storage systems",
   "service.card.fourth.description":
-    "Design and installation of robust, functional metal structures and industrial storage systems.",
-
+    "Design and installation of robust and functional metal structures and storage systems.",
   "service.card.fifth.iconAlt":
-    "Red ventilation fan icon on a white rounded background",
-  "service.card.fifth.title": "Industrial HVAC and ventilation",
+    "Red fan icon on a white background with rounded corners.",
+  "service.card.fifth.title":
+    "Industrial HVAC and ventilation",
   "service.card.fifth.description":
-    "Industrial systems that optimize comfort, ventilation and thermal control in productive environments.",
-
+    "Industrial systems that optimize comfort, ventilation, and thermal control in productive environments.",
   "service.card.sixth.iconAlt":
-    "Red blueprint icon on a white rounded background",
-  "service.card.sixth.title": "Engineering, design and BIM",
+    "Red blueprint icon on a white background with rounded corners.",
+  "service.card.sixth.title":
+    "Engineering, design, and BIM",
   "service.card.sixth.description":
-    "Technical studies, specialized designs, BIM modeling and project supervision for efficient execution.",
-
+    "Technical studies, specialized designs, BIM modeling, and project supervision for efficient and well-controlled projects.",
   "service.card.seventh.iconAlt":
-    "Red building icon on a white rounded background",
-  "service.card.seventh.title": "Civil works and infrastructure",
+    "Red building icon on a white background with rounded corners.",
+  "service.card.seventh.title":
+    "Civil works and infrastructure",
   "service.card.seventh.description":
-    "Execution of civil, industrial and infrastructure works with high quality and compliance standards.",
-
+    "Execution of civil, industrial, and infrastructure projects with high quality and compliance standards.",
   "service.card.eighth.iconAlt":
-    "Red gear icon on a white rounded background",
-  "service.card.eighth.title": "Industrial and mechanical assembly",
+    "Red nut icon on a white background with rounded corners.",
+  "service.card.eighth.title":
+    "Industrial and mechanical assembly",
   "service.card.eighth.description":
-    "Assembly of structures, equipment and mechanical systems for industrial and energy sector projects.",
-
+    "Assembly of structures, equipment, and mechanical systems for industrial and energy sector projects.",
   "service.card.ninth.iconAlt":
-    "Red electricity icon on a white rounded background",
-  "service.card.ninth.title": "Electrical and telecommunications networks",
+    "Red electricity icon on a white background with rounded corners.",
+  "service.card.ninth.title":
+    "Electrical networks and telecommunications",
   "service.card.ninth.description":
-    "Design and implementation of reliable electrical, telecommunications and power generation systems.",
-
+    "Development and implementation of reliable electrical networks, telecommunications, and power plants.",
   "service.card.tenth.iconAlt":
-    "Yellow sun icon on a white rounded background",
-  "service.card.tenth.title": "Renewable energy and sustainability",
+    "Yellow sun icon on a white background with rounded corners.",
+  "service.card.tenth.title":
+    "Renewable energy and sustainability",
   "service.card.tenth.description":
-    "Sustainable energy solutions that improve efficiency and reduce environmental impact.",
-
+    "Sustainable energy solutions that enhance efficiency and reduce environmental impact.",
   "service.card.eleventh.iconAlt":
-    "Red service icon on a white rounded background",
-  "service.card.eleventh.title": "Industrial services and operational logistics",
+    "Red service icon on a white background with rounded corners.",
+  "service.card.eleventh.title":
+    "Industrial services and operational logistics",
   "service.card.eleventh.description":
-    "Specialized services that optimize processes, timelines and resources in industrial operations.",
+    "Specialized services that optimize processes, timelines, and resources in industrial operations.",
 
-  // WE TALENT / SECTORS
+  //WE TALENT SECTION
   "wetalent.title": "Sectors We",
-  "wetalent.title.important": "Drive",
+  "wetalent.title.important": "Empower",
   "wetalent.description":
-    "We develop integrated solutions for multiple productive sectors, adapting to the technical, operational and regulatory needs of each industry.",
+    "We develop comprehensive solutions for various productive sectors, adapting to the technical, operational, and regulatory needs of each industry.",
+  "wetalent.first.card.title":
+    "Infrastructure and construction",
+  "wetalent.first.card.iconAlt":
+    "House icon.",
+  "wetalent.first.card.backgroundAlt":
+    "Blurred background image with dark and orange tones, suggesting a construction or industrial environment.",
+  "wetalent.second.card.title":
+    "Industry and manufacturing",
+  "wetalent.second.card.iconAlt":
+    "Company icon.",
+  "wetalent.second.card.backgroundAlt":
+    "Blurred background image with warm and dark tones, suggesting a work or collaboration environment.",
+  "wetalent.third.card.title":
+    "Logistics and distribution centers",
+  "wetalent.third.card.iconAlt":
+    "Logistics icon.",
+  "wetalent.third.card.backgroundAlt":
+    "Blurred background image with warm colors and silhouettes of metal structures or cranes, suggesting an industrial or construction site.",
+  "wetalent.main.image.alt": "",
+  "wetalent.fourth.card.title":
+    "Energy, oil, and gas",
+  "wetalent.fourth.card.iconAlt":
+    "Energy icon.",
+  "wetalent.fourth.card.backgroundAlt": "",
+  "wetalent.fifth.card.title":
+    "Mining and natural resources",
+  "wetalent.fifth.card.iconAlt":
+    "Mining icon.",
+  "wetalent.fifth.card.backgroundAlt": "",
+  "wetalent.sixth.card.title":
+    "Buildings, urban development, and special projects",
+  "wetalent.sixth.card.iconAlt":
+    "Building icon.",
+  "wetalent.sixth.card.backgroundAlt": "",
 
-  "wetalent.first.card.title": "Infrastructure and construction",
-  "wetalent.first.card.iconAlt": "House icon",
-
-  "wetalent.second.card.title": "Industry and manufacturing",
-  "wetalent.second.card.iconAlt": "Company icon",
-
-  "wetalent.third.card.title": "Logistics and distribution centers",
-  "wetalent.third.card.iconAlt": "Logistics icon",
-
-  "wetalent.fourth.card.title": "Energy, oil and gas",
-  "wetalent.fourth.card.iconAlt": "Energy icon",
-
-  "wetalent.fifth.card.title": "Mining and natural resources",
-  "wetalent.fifth.card.iconAlt": "Mining icon",
-
-  "wetalent.sixth.card.title": "Buildings, urban development and special projects",
-  "wetalent.sixth.card.iconAlt": "Building icon",
-
-  // PROJECT / SERVICE MODEL
+  // PROJECT SECTION
   "project.title": "Commercial Service Model",
 
-  "project-card-first-title": "Client needs analysis",
+  "project-card-first-title":
+    "Client needs analysis",
   "project-card-first-description":
-    "We thoroughly analyze technical, operational and financial requirements to define the real project scope and propose the best solution.",
+    "We thoroughly analyze the client’s technical, operational, and financial requirements to understand the true scope of the project and propose the best solution.",
+  "project-card-first-alt":
+    "Technical team analyzing client requirements and needs.",
 
-  "project-card-second-title": "Technical design and financial proposal",
+  "project-card-second-title":
+    "Technical design and commercial proposal",
   "project-card-second-description":
-    "We develop the technical design along with an optimized financial proposal aligned with the client’s objectives, budget and schedule.",
+    "We develop the technical design along with an optimized commercial proposal aligned with the client’s objectives, budget, and timeline.",
+  "project-card-second-alt":
+    "Engineers developing technical design and commercial proposal.",
 
-  "project-card-third-title": "Project planning and execution",
+  "project-card-third-title":
+    "Project planning and execution",
   "project-card-third-description":
-    "We plan and execute projects under a structured schedule, ensuring quality, safety and efficiency.",
+    "We plan and execute the project under a structured schedule, meeting quality, safety, and efficiency standards.",
+  "project-card-third-alt":
+    "Team executing an industrial project in the field.",
 
-  "project-card-fourth-title": "Supervision, control and final delivery",
+  "project-card-fourth-title":
+    "Supervision, control, and final delivery",
   "project-card-fourth-description":
-    "Continuous monitoring, quality control and final delivery in accordance with agreed specifications.",
+    "We provide continuous monitoring, quality control, and final delivery of the project as agreed with the client.",
+  "project-card-fourth-alt":
+    "Technical supervision and final project delivery.",
 
-  "project-card-fifth-title": "After-sales support",
+  "project-card-fifth-title":
+    "After-sales support",
   "project-card-fifth-description":
-    "Post-delivery support, technical assistance and advisory services to ensure proper operation and client satisfaction.",
+    "We offer post-delivery support, technical assistance, and consulting to ensure proper operation and customer satisfaction.",
+  "project-card-fifth-alt":
+    "Technical support and after-sales assistance for the client.",
 
   // DIFFERENTIALS
-  "members.title": "Competitive Differentiators",
+  "members.title":
+    "Competitive Differentials",
   "members.description":
-    "Our strength lies in technical capabilities, proven experience and a flexible approach that allows us to deliver efficient and secure solutions aligned with each client’s objectives.",
+    "Our strength lies in technical capabilities, proven experience, and a flexible approach that allows us to deliver efficient, safe solutions aligned with each client’s objectives.",
 
-  "members.first.card.ocupation": "Multidisciplinary technical team",
-  "members.second.card.ocupation": "Experience in large-scale projects",
-  "members.third.card.ocupation": "National and international operational capacity",
-  "members.fourth.card.ocupation": "Regulatory compliance and quality standards",
-  "members.fifth.card.ocupation": "Contractual flexibility and competitive pricing",
+  "members.first.card.ocupation":
+    "Multidisciplinary technical team",
+  "mebers.first.card.imageAlt":
+    "Professional team of engineers and technicians working together on an industrial engineering and construction project.",
+
+  "members.second.card.ocupation":
+    "Experience in large-scale projects",
+  "mebers.second.card.imageAlt":
+    "View of a large-scale industrial project with metal structures, heavy machinery, and specialized personnel.",
+
+  "members.third.card.ocupation":
+    "National and international operational capacity",
+  "mebers.third.card.imageAlt":
+    "Technical team performing engineering and assembly work in a modern international industrial environment.",
+
+  "members.fourth.card.ocupation":
+    "Regulatory compliance and quality standards",
+  "mebers.fourth.card.imageAlt":
+    "Technical inspection ensuring compliance with safety regulations, quality standards, and certified procedures.",
+
+  "members.fifth.card.ocupation":
+    "Contractual flexibility and competitive pricing",
+  "mebers.fifth.card.imageAlt":
+    "Strategic meeting between technical team and client analyzing costs, scope, and tailored project solutions.",
 
   // COVERAGE
-  "reviews.title": "Coverage and International Projection",
+  "reviews.title":
+    "National and International Coverage",
   "reviews.description.first":
-    "ARO Engineering and INCCOL Asociados S.A.S. have the technical and logistical capacity to execute projects throughout Colombia and international markets, ensuring reliability and efficiency.",
+    "At ARO Ingeniería Civil, we have the technical and logistical capacity to execute projects throughout Colombia, delivering reliable and efficient industrial solutions with professional backing.",
   "reviews.description.second":
-    "We are ready to become your strategic partner, delivering complete, efficient and sustainable solutions.",
+    "We are ready to become your strategic partner and support you at every stage of your project.",
   "reviews.description.third":
-    "It will be a pleasure to support you and build together.",
+    "It will be a pleasure to work with you and build together.",
 
-  // WORKING
-  "working.title": "Ready for your next project?",
+  //WORKING SECTION
+  "working.title":
+    "Ready for your next project?",
   "working.description":
-    "See what we are capable of building. Download our portfolio and see the standard of quality we can bring to your company.",
-  "working.button": "Portfolio",
+    "Discover what we are capable of building. Download our portfolio and see the quality standards we can bring to your company.",
+  "working.button":
+    "Portfolio",
+    // logos section
+"logos.title": "Partners Who Trust Our Commitment",
 
-  // FOOTER
+// alliance section
+"alliance.title": "A Strategic Alliance",
+"alliance.titleHero": "Services",
+
+"alliance.companyName": "INCCOL ASOCIADOS S.A.S.",
+"alliance.companyDescription":
+  "INCCOL ASOCIADOS S.A.S. is a Colombian company with over 15 years of experience in the import, installation, and maintenance of industrial equipment.",
+"alliance.companyDescription2":
+  "We specialize in delivering comprehensive solutions that optimize our clients’ logistics and operational processes, ensuring quality, efficiency, and compliance in every project.",
+
+
+  //FOOTER
   "footer.description":
-    "ARO Engineering and INCCOL Asociados S.A.S. operate as strategic partners delivering integrated solutions in engineering, construction and industrial equipment, ensuring efficiency, quality and compliance.",
-  "footer.link.title": "Quick Links",
-  "footer.link.first": "About Us",
-  "footer.link.second": "Services",
-  "footer.link.third": "Our Sectors",
-  "footer.link.four": "Differentiators",
-  "footer.link.fifth": "Coverage",
-  "footer.contact.title": "Contact"
-,}
+    "ARO Ingeniería Civil is a national company specialized in industrial solutions, focused on the importation, installation, and maintenance of commercial and industrial equipment, ensuring quality, efficiency, and compliance in every project.",
+  "footer.link.title":
+    "Quick Links",
+  "footer.link.first":
+    "About Us",
+  "footer.link.second":
+    "Services",
+  "footer.link.third":
+    "Sectors",
+  "footer.link.four":
+    "Service Model",
+  "footer.link.fifth":
+    "Differentials",
+  "footer.blog.title":
+    "Recent News",
+  "footer.blog.first.title":
+    "Construction of a luxury residential development on the Atlantic coast",
+  "footer.blog.second.title":
+    "How important is structural design in commercial projects?",
+  "footer.blog.third.title":
+    "The challenges of specialized industrial construction",
+  "footer.contact.title":
+    "Contact",
+}
+
 
 };

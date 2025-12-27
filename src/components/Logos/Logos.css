@@ -1,30 +1,95 @@
+/* ============================================================================
+   LOGO CAROUSEL - ESTILO CORPORATIVO PROFESIONAL
+   Carrusel de logos de empresas aliadas
+   ============================================================================ */
+
+/* ============================================================================
+   HEADER - TÍTULO DE LOGOS
+   ============================================================================ */
+
+.first-logos-background {
+  background-image: url("/assets/images/backgroung-services.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.first-logos-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 51, 102, 0.85) 0%, rgba(0, 76, 153, 0.75) 100%);
+  z-index: 1;
+}
+
+.first-logos-background h1 {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ============================================================================
+   CONTENEDOR DEL CARRUSEL
+   ============================================================================ */
+
 .logo-container {
   overflow: hidden;
   width: 100%;
-  background: white; /* puedes personalizar */
-  padding: 2rem 0;
+  background: #ffffff;
+  padding: 3rem 0;
+  position: relative;
+  border-top: 1px solid #e8edf2;
+  border-bottom: 1px solid #e8edf2;
 }
+
+.logo-container::before,
+.logo-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.logo-container::before {
+  left: 0;
+  background: linear-gradient(to right, #ffffff 0%, transparent 100%);
+}
+
+.logo-container::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff 0%, transparent 100%);
+}
+
+/* ============================================================================
+   ANIMACIÓN DEL CARRUSEL
+   ============================================================================ */
 
 .logo-slide {
   display: flex;
   align-items: center;
-  gap: 3rem;
-  animation: scroll 100s linear infinite;
+  gap: 4rem;
+  animation: scroll 50s linear infinite;
   width: max-content;
+  padding: 0 2rem;
 }
 
-.logo-slide figure {
-  flex-shrink: 0;
-  min-width: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo-slide img {
-  height: 60px;
-  width: auto;
-  object-fit: contain;
+.logo-slide:hover {
+  animation-play-state: paused;
 }
 
 @keyframes scroll {
@@ -36,12 +101,161 @@
   }
 }
 
-@media (max-width: 768px) {
+/* ============================================================================
+   LOGOS INDIVIDUALES
+   ============================================================================ */
+
+.logo-slide figure {
+  flex-shrink: 0;
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background-color: #fafbfc;
+  border: 1px solid #e8edf2;
+  border-radius: 6px;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.logo-slide figure:hover {
+  background-color: #ffffff;
+  border-color: #003366;
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.1);
+  transform: translateY(-3px);
+}
+
+.logo-slide img {
+  height: 65px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(20%);
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+
+.logo-slide figure:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* ============================================================================
+   RESPONSIVE - TABLET
+   ============================================================================ */
+
+@media (min-width: 768px) {
+  .first-logos-background {
+    padding: 4rem 2rem;
+  }
+
+  .first-logos-background h1 {
+    font-size: 2rem;
+  }
+
+  .logo-container {
+    padding: 3.5rem 0;
+  }
+
   .logo-slide {
-    gap: 2rem;
+    gap: 4.5rem;
+  }
+
+  .logo-slide figure {
+    min-width: 160px;
+    padding: 1.25rem 1.75rem;
   }
 
   .logo-slide img {
-    height: 40px;
+    height: 70px;
+    max-width: 160px;
+  }
+}
+
+/* ============================================================================
+   RESPONSIVE - DESKTOP
+   ============================================================================ */
+
+@media (min-width: 1024px) {
+  .first-logos-background {
+    padding: 3rem 2rem;
+  }
+
+  .first-logos-background h1 {
+    font-size: 1 rem;
+    letter-spacing: 1px;
+  }
+
+  .logo-container {
+    padding: 4rem 0;
+  }
+
+  .logo-container::before,
+  .logo-container::after {
+    width: 150px;
+  }
+
+  .logo-slide {
+    gap: 5rem;
+  }
+
+  .logo-slide figure {
+    min-width: 180px;
+    padding: 1.5rem 2rem;
+  }
+
+  .logo-slide img {
+    height: 75px;
+    max-width: 180px;
+  }
+}
+
+/* ============================================================================
+   RESPONSIVE - LARGE SCREENS
+   ============================================================================ */
+
+@media (min-width: 1280px) {
+  .logo-slide figure {
+    min-width: 200px;
+  }
+
+  .logo-slide img {
+    height: 80px;
+    max-width: 200px;
+  }
+}
+
+/* ============================================================================
+   RESPONSIVE - MOBILE
+   ============================================================================ */
+
+@media (max-width: 767px) {
+  .first-logos-background {
+    padding: 3rem 1.5rem;
+  }
+
+  .logo-container {
+    padding: 2.5rem 0;
+  }
+
+  .logo-container::before,
+  .logo-container::after {
+    width: 60px;
+  }
+
+  .logo-slide {
+    gap: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .logo-slide figure {
+    min-width: 120px;
+    padding: 0.875rem 1.25rem;
+  }
+
+  .logo-slide img {
+    height: 50px;
+    max-width: 120px;
   }
 }

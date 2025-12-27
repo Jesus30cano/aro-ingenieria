@@ -1,45 +1,52 @@
 ---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
 import "./Logos.css";
 ---
-
+ <!-- TÍTULO -->
+  <div class="first-logos-background animate-scroll">
+    <h1>{translateLabels("logos.title")}</h1>
+  </div>
 <section>
   <div class="logo-container">
     <div class="logo-slide">
       <!-- Logos originales -->
       <figure>
-        <img src="/assets/logos/logo.png" alt="Acerosturia" />
+        <img src="/assets/logos/logo1.jpeg" alt="ercol" />
       </figure>
-      <figure><img src="/assets/logos/logo.png" alt="Almasa" /></figure>
+      <figure><img src="/assets/logos/logo2.jpeg" alt="D1" /></figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Asogestión" />
-      </figure>
-      <figure>
-        <img src="/assets/logos/logo.png" alt="CHH Ingeniería" />
+        <img src="/assets/logos/logo3.jpeg" alt="Mapei" />
       </figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Colegio Alemán" />
+        <img src="/assets/logos/logo4.jpeg" alt="toxement" />
       </figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Construplan" />
+        <img src="/assets/logos/logo5.jpeg" alt="enco-expres" />
+      </figure>
+      <figure>
+        <img src="/assets/logos/logo6.jpeg" alt="galapark" />
       </figure>
       
 
       <!-- Duplicación para animación infinita -->
             <figure>
-        <img src="/assets/logos/logo.png" alt="Acerosturia" />
+        <img src="/assets/logos/logo1.jpeg" alt="ercol" />
       </figure>
-      <figure><img src="/assets/logos/logo.png" alt="Almasa" /></figure>
+      <figure><img src="/assets/logos/logo2.jpeg" alt="D1" /></figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Asogestión" />
-      </figure>
-      <figure>
-        <img src="/assets/logos/logo.png" alt="CHH Ingeniería" />
+        <img src="/assets/logos/logo3.jpeg" alt="Mapei" />
       </figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Colegio Alemán" />
+        <img src="/assets/logos/logo4.jpeg" alt="toxement" />
       </figure>
       <figure>
-        <img src="/assets/logos/logo.png" alt="Construplan" />
+        <img src="/assets/logos/logo5.jpeg" alt="enco-expres" />
+      </figure>
+      <figure>
+        <img src="/assets/logos/logo6.jpeg" alt="galapark" />
       </figure>
     </div>
   </div>
