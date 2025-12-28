@@ -137,7 +137,7 @@ export const labels = {
     "wetalent.sixth.card.title": "Edificaciones, urbanismo y proyectos especiales",
     "wetalent.sixth.card.iconAlt": "Icono de una edificacion.",
     "wetalent.sixth.card.backgroundAlt": "",
-    // PROJECT SECTION (MODELO DE ATENCIÓN COMERCIAL)
+    // (MODELO DE ATENCIÓN COMERCIAL)
 "project.title": "Modelo de Atención Comercial",
 
 "project-card-first-title": "Análisis de necesidades del cliente",
@@ -239,11 +239,63 @@ export const labels = {
 
     "alliance.companyName": "INCCOL ASOCIADOS S.A.S.",
     "alliance.companyDescription":
-      "INCCOL ASOCIADOS S.A.S. es una empresa colombiana con más de 15 años de experiencia en la importación, instalación y mantenimiento de equipos industriales.",
-      "alliance.companyDescription2": " Nos especializamos en ofrecer soluciones integrales que optimizan los procesos logísticos y operativos de nuestros clientes, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
-      
-    
+    "INCCOL ASOCIADOS S.A.S. es una empresa colombiana con más de 15 años de experiencia en la importación, instalación y mantenimiento de equipos industriales.",
+    "alliance.companyDescription2": " Nos especializamos en ofrecer soluciones integrales que optimizan los procesos logísticos y operativos de nuestros clientes, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
+    //NEW PROJECT SECTION
+    "New-project.title":"Nuestros Productos Destacados",
+    "New-project-card-Imagecounter":"Galeria",  
+    "New-project-card-button":"Ver catálogo", 
+    "New-project.modal.gallery-title":"Galería de Imágenes",
+    "New-project-name": "Aro Ingeniería Civil",
+    "New-project1-title": "Sistemas Inteligentes para Portones de Acceso ",
+    "New-project1-description": "Automatizamos portones de acceso con tecnología moderna que brinda seguridad, control y comodidad, mejorando la experiencia de ingreso y salida.",
+    "New-project1-image1-alt": "Motor para portones de acceso",
+    "New-project1-image2-alt": "Motor para portones de acceso",
+    "New-project1-image3-alt": "Motor para portones de acceso",
+    "New-project1-image4-alt": "Motor para portones de acceso",
+    "New-project1-image5-alt": "Motor para portones de acceso",
+    "New-project1-image6-alt": "Motor para portones de acceso",
+    "New-project1-image7-alt": "Motor para portones de acceso",
+    "New-project1-video1-alt": "video de motor para portones de acceso",
+   
+    "New-project2-title": "Sistema De Seguridad ",
+    "New-project2-description": "Implementamos sistemas de seguridad confiables y tecnológicos que protegen personas, instalaciones y activos, garantizando control, prevención y tranquilidad.",
 
+    "New-project2-image1-alt": "Foto de sistema de seguridad",
+    "New-project2-image2-alt": "Foto de sistema de seguridad",
+
+    "New-project3-title":"Nivelador de Muelle o Andén",
+    "New-project3-description":"Soluciones en niveladores de muelle que optimizan las operaciones de carga y descarga, garantizando seguridad, eficiencia y continuidad operativa.",
+
+    "New-project3-image1-alt":"Foto de nivelador de muelle",
+    "New-project3-image2-alt":"Foto de nivelador de muelle",
+    "New-project3-image3-alt":"Foto de nivelador de muelle",
+    "New-project3-image4-alt":"Foto de nivelador de muelle",
+    "New-project3-video1-alt":"video de nivelador de muelle",
+    "New-project3-video2-alt":"video de nivelador de muelle",
+
+    "New-project4-title":"Cortinas Enrollables Industriales", 
+    "New-project4-description":"Sistemas de cortinas enrollables de alto desempeño que optimizan el control de accesos, la protección y la continuidad operativa.",
+    "New-project4-image1-alt":"imagen de cortina metalica",
+    "New-project4-image2-alt":"imagen de cortina metalica",
+    "New-project4-image3-alt":"imagen de cortina metalica",
+    "New-project4-image4-alt":"imagen de cortina metalica",
+    "New-project4-video1-alt":"video de cortina metalica",
+    "New-project4-video2-alt":"video de cortina metalica",
+    "New-project4-video3-alt":"video de cortina metalica",
+    "New-project4-video4-alt":"video de cortina metalica",
+
+    "New-project5-title":"Mezzanine Modulares", 
+    "New-project5-description":"Mezzanines modulares que permiten maximizar el espacio disponible sin necesidad de obras complejas, adaptándose a cada necesidad.",
+    "New-project5-image1-alt":"Foto de mezzanine modular",
+    "New-project5-image2-alt":"Foto de mezzanine modular",
+    "New-project5-video1-alt":"video de mezzanine modular",
+
+    "New-project6-title":"Sistema HVAC", 
+    "New-project6-description":"Soluciones HVAC eficientes que garantizan ambientes confortables, optimizando el consumo energético y asegurando la calidad del aire interior.",
+    "New-project6-image1-alt":"Foto de sistema HVAC",
+    "New-project6-image2-alt":"Foto de sistema HVAC",
+    "New-project6-video1-alt":"video de sistema HVAC",        
     //FOOTER SECTION
     "footer.description":
       "ARO Ingeniería Civil es una empresa nacional especializada en soluciones industriales, enfocada en la importación, instalación y mantenimiento de equipos comerciales e industriales, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
@@ -531,6 +583,60 @@ export const labels = {
 "alliance.companyDescription2":
   "We specialize in delivering comprehensive solutions that optimize our clients’ logistics and operational processes, ensuring quality, efficiency, and compliance in every project.",
 
+// NEW PROJECT SECTION
+"New-project.title": "Our Featured Products",
+"New-project-card-Imagecounter": "Gallery",
+"New-project-card-button": "View catalog",
+"New-project.modal.gallery-title": "Image Gallery",
+"New-project-name": "Aro Civil Engineering",
+
+"New-project1-title": "Smart Access Gate Systems",
+"New-project1-description": "We automate access gates with modern technology that provides security, control, and convenience, enhancing entry and exit experiences.",
+"New-project1-image1-alt": "Access gate motor",
+"New-project1-image2-alt": "Access gate motor",
+"New-project1-image3-alt": "Access gate motor",
+"New-project1-image4-alt": "Access gate motor",
+"New-project1-image5-alt": "Access gate motor",
+"New-project1-image6-alt": "Access gate motor",
+"New-project1-image7-alt": "Access gate motor",
+"New-project1-video1-alt": "Access gate motor video",
+
+"New-project2-title": "Security System",
+"New-project2-description": "We implement reliable and technological security systems that protect people, facilities, and assets, ensuring control, prevention, and peace of mind.",
+"New-project2-image1-alt": "Security system photo",
+"New-project2-image2-alt": "Security system photo",
+
+"New-project3-title": "Dock Leveler",
+"New-project3-description": "Dock leveler solutions that optimize loading and unloading operations, ensuring safety, efficiency, and operational continuity.",
+"New-project3-image1-alt": "Dock leveler photo",
+"New-project3-image2-alt": "Dock leveler photo",
+"New-project3-image3-alt": "Dock leveler photo",
+"New-project3-image4-alt": "Dock leveler photo",
+"New-project3-video1-alt": "Dock leveler video",
+"New-project3-video2-alt": "Dock leveler video",
+
+"New-project4-title": "Industrial Rolling Shutters",
+"New-project4-description": "High-performance rolling shutter systems that optimize access control, protection, and operational continuity.",
+"New-project4-image1-alt": "Metal rolling shutter image",
+"New-project4-image2-alt": "Metal rolling shutter image",
+"New-project4-image3-alt": "Metal rolling shutter image",
+"New-project4-image4-alt": "Metal rolling shutter image",
+"New-project4-video1-alt": "Metal rolling shutter video",
+"New-project4-video2-alt": "Metal rolling shutter video",
+"New-project4-video3-alt": "Metal rolling shutter video",
+"New-project4-video4-alt": "Metal rolling shutter video",
+
+"New-project5-title": "Modular Mezzanines",
+"New-project5-description": "Modular mezzanines that maximize available space without the need for complex construction, adapting to every requirement.",
+"New-project5-image1-alt": "Modular mezzanine photo",
+"New-project5-image2-alt": "Modular mezzanine photo",
+"New-project5-video1-alt": "Modular mezzanine video",
+
+"New-project6-title": "HVAC System",
+"New-project6-description": "Efficient HVAC solutions that ensure comfortable environments, optimize energy consumption, and guarantee indoor air quality.",
+"New-project6-image1-alt": "HVAC system photo",
+"New-project6-image2-alt": "HVAC system photo",
+"New-project6-video1-alt": "HVAC system video",
 
   //FOOTER
   "footer.description":

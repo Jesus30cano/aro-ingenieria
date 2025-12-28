@@ -1,0 +1,592 @@
+/* ===========================
+   MODAL OVERLAY
+=========================== */
+/* ===============================
+   PROJECT SECTION 2 (CLON EXACTO)
+================================ */
+
+.project-section2-container {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+/* ---------- BG SECTION ---------- */
+.project-section2-container .bg-section2 {
+  background-image: url("/assets/images/background-projectsection.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+/* ---------- TITLE ---------- */
+.project-section2-container .bg-section2 h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: "Work Sans", sans-serif;
+ 
+}
+.project-section2-container .bg-section2 .New-shape-container2 .shape {
+  display: none;
+}
+.bg-section2 h1 {
+  position: relative;
+  overflow: hidden;
+}
+/* Shine effect */
+.bg-section2 h1.visible::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  animation: shine 1s ease-in-out 0.5s;
+}
+
+@keyframes shine {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.bg-section2 {
+  margin-bottom: 20px;
+}
+
+/* ---------- SHAPE ---------- */
+.project-section2-container
+  .bg-section2
+  .New-shape-container2
+  .shape2 {
+  display: none;
+}
+.New-shape-container2 {
+  transform-origin: center;
+}
+
+.New-shape-container2.visible {
+  animation: scaleInRotate 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@keyframes scaleInRotate {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-180deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1) rotate(-90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* ---------- ANIMATIONS ---------- */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-up2 {
+  opacity: 1;
+  transform: translateY(60px) scale(0.95);
+  transition: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-up2.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Floating */
+.floating-animation {
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.floating-animation.start-floating {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(-5deg);
+  }
+}
+
+/* ===============================
+   MOBILE FIX (SOLO ≤768px)
+================================ */
+@media (max-width: 768px) {
+  /* Contenedor mucho más compacto */
+  .slide-in-up2 {
+    transform: translateY(30px);
+  }
+  .project-section2-container .bg-section2 {
+    
+    align-items: center;
+    
+    height: 20vh;
+    min-height: 160px;
+    max-height: 220px;
+    padding: 2.75rem 0;
+  }
+  .floating-animation {
+    animation-duration: 6s;
+  }
+  /* Título perfectamente centrado */
+  .project-section2-container .bg-section2 h1 {
+    font-size: 2.0rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+    text-align: center;
+  }
+}
+
+slide-in-up2 {
+  transform: translateY(60px) rotateX(20deg) scale(0.9);
+}
+.slide-in-up2.visible {
+  transform: translateY(0) rotateX(0deg) scale(1);
+}
+/* ===============================
+   DESKTOP (IGUAL AL ORIGINAL)
+================================ */
+@media (min-width: 1024px) {
+  .project-section2-container .bg-section2 {
+    position: relative;
+    height: 40vh;
+  }
+
+  .project-section2-container
+    .bg-section2
+    .New-shape-container2
+    .shape2 {
+    display: block;
+    width: 15%;
+    max-width: 150px;
+
+    position: absolute;
+    margin: -2rem 2rem;
+    z-index: 2;
+    object-fit: cover;
+  }
+
+  .project-section2-container .bg-section2 h1 {
+    position: relative;
+    text-align: start;
+    padding: 2rem 3rem;
+    z-index: 10;
+  }
+}
+
+/* Pantallas grandes */
+@media (min-width: 1536px) {
+  .project-section2-container .bg-section2 {
+    height: 35vh;
+  }
+}
+
+
+.modal-project {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Cuando el modal está activo */
+.modal-project.active {
+  display: flex;
+}
+
+/* ===========================
+   CONTENIDO DEL MODAL
+=========================== */
+.modal-project .modal-content {
+  background: #ffffff;
+  color: #222;
+  width: 100%;
+  max-width: 1100px;
+  max-height: calc(100vh - 40px);
+
+  border-radius: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  animation: modalFadeIn 0.35s ease;
+}
+
+/* Animación de entrada */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ===========================
+   HEADER DEL MODAL
+=========================== */
+.modal-project .modal-header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+
+  padding: 24px 28px 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.modal-project .modal-client {
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.modal-project .modal-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Botón cerrar */
+.modal-project .modal-close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+
+  background: none;
+  border: none;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-project .modal-close:hover {
+  color: #000;
+}
+
+/* ===========================
+   BODY DEL MODAL
+=========================== */
+.modal-project .modal-body {
+  padding: 24px 28px 32px;
+}
+
+.modal-project .modal-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+/* ===========================
+   GALERÍA
+=========================== */
+.gallery-container {
+  margin-top: 32px;
+}
+
+.gallery-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* Grid de imágenes y videos */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* ===========================
+   IMÁGENES
+=========================== */
+.gallery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* ===========================
+   VIDEOS
+=========================== */
+.gallery-video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+  border-radius: 12px;
+  background: #000;
+}
+
+/* ===========================
+   LIGHTBOX
+=========================== */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+
+  background: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+}
+
+/* Botón cerrar lightbox */
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* Navegación lightbox */
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 48px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.lightbox-prev {
+  left: -60px;
+}
+
+.lightbox-next {
+  right: -60px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  
+  .modal-project .modal-content {
+    border-radius: 12px;
+  }
+
+  .modal-project .modal-title {
+    font-size: 22px;
+  }
+
+  .gallery-image,
+  .gallery-video {
+    height: 180px;
+  }
+
+  .lightbox-prev {
+    left: 10px;
+  }
+
+  .lightbox-next {
+    right: 10px;
+  }
+}
+/* ===========================
+   VIDEO CLEAN UI
+=========================== */
+.gallery-video {
+  pointer-events: auto;
+  outline: none;
+}
+
+.gallery-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.gallery-video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+/* ===========================
+   VIDEO WRAPPER
+=========================== */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+/* Video */
+.video-wrapper .gallery-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* ===========================
+   BOTÓN PLAY
+=========================== */
+.video-play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+
+  font-size: 28px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.video-play-btn:hover {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Ocultar botón */
+.video-play-btn.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+/* ===========================
+   BOTÓN EXPANDIR
+=========================== */
+.video-expand-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  width: 36px;
+  height: 36px;
+
+  border-radius: 8px;
+  border: none;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 16px;
+
+  cursor: pointer;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-expand-btn:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* ===========================
+   VIDEO EXPANDIDO
+=========================== */
+.video-wrapper.expanded {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.95);
+  padding: 40px;
+}
+
+.video-wrapper.expanded .gallery-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
