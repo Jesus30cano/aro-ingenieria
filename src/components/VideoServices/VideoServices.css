@@ -273,7 +273,7 @@ slide-in-up2 {
    HEADER DEL MODAL
 =========================== */
 .modal-project .modal-header {
-  position: sticky;
+  position: relative;
   top: 0;
   background: #fff;
   z-index: 10;
