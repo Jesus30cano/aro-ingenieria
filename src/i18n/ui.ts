@@ -11,9 +11,11 @@ export const labels = {
     "nav.about": "Sobre Nosotros",
     "nav.services": "Servicios",
     "nav.talent": "Sectores",
-    "nav.projects": "Modelo de Atención",
+    "nav.projects": "Proyectos",
+    "nav.products": "Productos",
     "nav.members": "Diferenciales",
     "nav.reviews": "Cobertura",
+    "nav.alliance": "Aliados",
     "nav.languages": "Lenguajes",
     "nav.contact": "Contáctanos",
     "nav.hamburguerAlt": "Abrir menú de navegación",
@@ -295,7 +297,32 @@ export const labels = {
     "New-project6-description":"Soluciones HVAC eficientes que garantizan ambientes confortables, optimizando el consumo energético y asegurando la calidad del aire interior.",
     "New-project6-image1-alt":"Foto de sistema HVAC",
     "New-project6-image2-alt":"Foto de sistema HVAC",
-    "New-project6-video1-alt":"video de sistema HVAC",        
+    "New-project6-video1-alt":"video de sistema HVAC",
+    //project-form section
+    "project-form.title": "Nuestros Proyectos Activos",
+    "project-form-card.title":"Proyecto Vivienda - Casas Contenedores",
+    "project-form-card.description":"Descubre nuestras soluciones de vivienda innovadoras con casas contenedores, diseñadas para ofrecer alternativas económicas y sostenibles en Colombia.",
+    "project-form-card.button":"Ver pasos del proceso",
+    "project-modal.title":"Convocatoria Vivienda - Casas Contenedores",
+    "project-modal.intro":"Aro Ingeniería agradece su interés por nuestra convocatoria para vivienda de casas contenedores en Colombia, dirigida a estratos 1, 2 y 3, como una alternativa más económica y rápida frente a la construcción tradicional.",
+    "project-modal.subtitle":"Pasos para iniciar el proceso",
+    "project-modal.step1":"Diligenciar el formulario",
+    "project-modal.step1.description":"Descargar y completar el formulario de inscripción para evaluar su perfil.",
+    "project-modal.step2":"Realizar la consignación",
+    "project-modal-step2.value":"Valor:",
+    "project-modal-step2.bank":"Banco:",
+    "project-modal-step2.type":"Tipo:",
+    "project-modal-step2.type.value":"Cuenta de Ahorros",
+    "project-modal-step2.number":"Número:",
+    "project-modal-step2.owner":"Titular:",
+    "project-modal-step2.note":"Importante:",
+    "project-modal.step2.note.description":"En la observación de la consignación escribir nombre y número de cédula del consignante.",
+    "project-modal.step3":"Enviar documentos",
+    "project-modal.step3.description":"Enviar el formulario diligenciado y la consignación escaneada en PDF (NO fotos ni imágenes) al correo: ",
+    "project-modal.step3.contact-note":"Un representante de ARO se pondrá en contacto.",
+    "project-modal.download-button": "Descargar formulario",
+    "project-modal.email-button": "Enviar documentos",
+
     //FOOTER SECTION
     "footer.description":
       "ARO Ingeniería Civil es una empresa nacional especializada en soluciones industriales, enfocada en la importación, instalación y mantenimiento de equipos comerciales e industriales, garantizando calidad, eficiencia y cumplimiento en cada proyecto.",
@@ -303,8 +330,8 @@ export const labels = {
     "footer.link.first": "Sobre Nosotros",
     "footer.link.second": "Servicios",
     "footer.link.third": "Sectores",
-    "footer.link.four": "Modelo de Atención",
-    "footer.link.fifth": "Diferenciales",
+    "footer.link.four": "Diferenciales",
+    "footer.link.fifth": "Cobertura Nacional",
     "footer.blog.title": "Noticias Recientes",
     "footer.blog.first.title":
       "Construcción de desarollo habitacional de lujo en la costa atlántica",
@@ -321,9 +348,11 @@ export const labels = {
   "nav.about": "About Us",
   "nav.services": "Services",
   "nav.talent": "Sectors",
-  "nav.projects": "Service Model",
+  "nav.projects": "Projects",
+  "nav.products": "Products",
   "nav.members": "Differentials",
   "nav.reviews": "Coverage",
+  "nav.alliance": "Allies",
   "nav.languages": "Languages",
   "nav.contact": "Contact Us",
   "nav.hamburguerAlt": "Open navigation menu",
@@ -484,43 +513,32 @@ export const labels = {
     "Building icon.",
   "wetalent.sixth.card.backgroundAlt": "",
 
-  // PROJECT SECTION
-  "project.title": "Commercial Service Model",
+  // project-form section
+"project-form.title": "Our Active Projects",
+"project-form-card.title": "Housing Project – Container Homes",
+"project-form-card.description": "Discover our innovative housing solutions with container homes, designed to offer affordable and sustainable alternatives in Colombia.",
+"project-form-card.button": "View Process Steps",
+"project-modal.title": "Housing Call – Container Homes",
+"project-modal.intro": "Aro Engineering appreciates your interest in our container home housing call in Colombia, aimed at social strata 1, 2, and 3, as a more affordable and faster alternative to traditional construction.",
+"project-modal.subtitle": "Steps to Start the Process",
+"project-modal.step1": "Complete the Form",
+"project-modal.step1.description": "Download and complete the registration form to evaluate your profile.",
+"project-modal.step2": "Make the Deposit",
+"project-modal-step2.value": "Amount:",
+"project-modal-step2.bank": "Bank:",
+"project-modal-step2.type": "Account Type:",
+"project-modal-step2.type.value": "Savings Account",
+"project-modal-step2.number": "Account Number:",
+"project-modal-step2.owner": "Account Holder:",
+"project-modal-step2.note": "Important:",
+"project-modal.step2.note.description": "In the deposit reference, write the depositor’s full name and ID number.",
+"project-modal.step3": "Send Documents",
+"project-modal.step3.description": "Send the completed form and the scanned deposit receipt in PDF format (NO photos or images) to the email:",
+"project-modal.step3.contact-note": "An ARO representative will contact you.",
+"project-modal.download-button": "Download Form",
+"project-modal.email-button": "Send Documents",
 
-  "project-card-first-title":
-    "Client needs analysis",
-  "project-card-first-description":
-    "We thoroughly analyze the client’s technical, operational, and financial requirements to understand the true scope of the project and propose the best solution.",
-  "project-card-first-alt":
-    "Technical team analyzing client requirements and needs.",
-
-  "project-card-second-title":
-    "Technical design and commercial proposal",
-  "project-card-second-description":
-    "We develop the technical design along with an optimized commercial proposal aligned with the client’s objectives, budget, and timeline.",
-  "project-card-second-alt":
-    "Engineers developing technical design and commercial proposal.",
-
-  "project-card-third-title":
-    "Project planning and execution",
-  "project-card-third-description":
-    "We plan and execute the project under a structured schedule, meeting quality, safety, and efficiency standards.",
-  "project-card-third-alt":
-    "Team executing an industrial project in the field.",
-
-  "project-card-fourth-title":
-    "Supervision, control, and final delivery",
-  "project-card-fourth-description":
-    "We provide continuous monitoring, quality control, and final delivery of the project as agreed with the client.",
-  "project-card-fourth-alt":
-    "Technical supervision and final project delivery.",
-
-  "project-card-fifth-title":
-    "After-sales support",
-  "project-card-fifth-description":
-    "We offer post-delivery support, technical assistance, and consulting to ensure proper operation and customer satisfaction.",
-  "project-card-fifth-alt":
-    "Technical support and after-sales assistance for the client.",
+  
 
   // DIFFERENTIALS
   "members.title":
@@ -650,9 +668,9 @@ export const labels = {
   "footer.link.third":
     "Sectors",
   "footer.link.four":
-    "Service Model",
-  "footer.link.fifth":
     "Differentials",
+  "footer.link.fifth":
+    "National Coverage",
   "footer.blog.title":
     "Recent News",
   "footer.blog.first.title":

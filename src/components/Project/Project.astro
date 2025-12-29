@@ -1,0 +1,126 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import "./Project.css";
+---
+
+<div class="project-title-background animate-scroll2">
+  <h1>{translateLabels("project-form.title")}</h1>
+</div>
+
+<section id="seccion-project">
+  <div class="project-container">
+    
+    <div class="project-text-container">
+      <h1>{translateLabels("project-form-card.title")}</h1>
+      <p>{translateLabels("project-form-card.description")}</p>
+      <button id="openModalBtn2" class="primary-button">
+        <img src="/assets/Icons/email.svg" alt="document">
+        {translateLabels("project-form-card.button")}
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div id="projectModal2" class="modal-overlay">
+  <div class="modal-container">
+    <button id="closeModalBtn2" class="modal-close2" aria-label="Cerrar modal">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    
+    <div class="modal-content">
+      <h2 class="modal-title">{translateLabels("project-modal.title")}</h2>
+      
+      <p class="modal-intro">
+        {translateLabels("project-modal.intro")}
+      </p>
+      
+      <h3 class="modal-subtitle">{translateLabels("project-modal.subtitle")}</h3>
+      
+      <div class="steps-container">
+        <!-- Paso 1 -->
+        <div class="step-card">
+          <div class="step-icon step-1">
+            <img src="/assets/Icons/email.svg" alt="close">
+          </div>
+          <div class="step-content">
+            <h4>1. {translateLabels("project-modal.step1")}</h4>
+            <p>{translateLabels("project-modal.step1.description")}</p>
+          </div>
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="step-card">
+          <div class="step-icon step-2">
+            <img src="/assets/Icons/social.svg" alt="pagos">
+          </div>
+          <div class="step-content">
+            <h4>2. {translateLabels("project-modal.step2")}</h4>
+            <div class="payment-details">
+              <div class="detail-row">
+                <span class="detail-label">{translateLabels("project-modal-step2.value")}</span>
+                <span class="detail-value">$30.000 COP</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">{translateLabels("project-modal-step2.bank")}</span>
+                <span class="detail-value">Bancolombia</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">{translateLabels("project-modal-step2.type")}</span>
+                <span class="detail-value">{translateLabels("project-modal-step2.type.value")}</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">{translateLabels("project-modal-step2.number")}</span>
+                <span class="detail-value">23370248559</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">{translateLabels("project-modal-step2.owner")}</span>
+                <span class="detail-value">ARO INGENIERIA CIVIL SAS</span>
+              </div>
+              <div class="detail-note">
+                <strong>{translateLabels("project-modal-step2.note")}</strong> {translateLabels("project-modal.step2.note.description")}
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="step-card">
+          <div class="step-icon step-3">
+            <img src="/assets/Icons/gmail.svg" alt="gmail">
+          </div>
+          <div class="step-content">
+            <h4>3. {translateLabels("project-modal.step3")}</h4>
+            <p>{translateLabels("project-modal.step3.description")}<strong>info@aroingenieria.com</strong></p> 
+            <p class="contact-note">{translateLabels("project-modal.step3.contact-note")}</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-actions">
+        <a href="/assets/portafolio/formulario/fomulario-vivienda-contenedor.pdf" download class="btn-secondary">
+          <img src="/assets/Icons/archivo.svg" alt="descargar">
+          {translateLabels("project-modal.download-button")}
+        </a>
+        <a 
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=info@aroingenieria.com&su=Convocatoria Vivienda - Casas Contenedores&body=Adjunto el formulario diligenciado y la consignación en PDF."
+  target="_blank"
+  rel="noopener noreferrer"
+  class="btn-primary"
+>
+  <img src="/assets/Icons/gmail.svg" alt="gmail">
+  {translateLabels("project-modal.email-button")}
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./Project.js"></script>
