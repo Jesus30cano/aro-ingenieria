@@ -1,0 +1,167 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import "./Alliance.css";
+---
+ <!-- TÍTULO -->
+  <div class="first-alliance-background animate-scroll">
+    <h1>{translateLabels("alliance.title")}</h1>
+  </div>
+<section id="services">
+  <div class="service-section-container">
+    <div class="right-section">
+      <!-- LOGO DE LA ALIANZA -->
+      <div class="alliance-logo-container fade-in-up" data-delay="100">
+        <img 
+          src="/assets/logos/logo-incol-removebg-preview.png" 
+          alt="Logo Alianza"
+          class="alliance-logo"
+        />
+      </div>
+      
+      <!-- 3 TEXTOS DEBAJO DEL LOGO -->
+      <div class="alliance-texts">
+        <h1 class="alliance-title fade-in-up" data-delay="200">
+          {translateLabels("alliance.companyName")}
+        </h1>
+        <p class="alliance-subtitle fade-in-up" data-delay="300">
+          {translateLabels("alliance.companyDescription")}
+        </p>
+        <p class="alliance-description fade-in-up" data-delay="400">
+          {translateLabels("alliance.companyDescription2")}
+        </p>
+      </div>
+    </div>
+
+    <div class="left-section">
+      <div class="swiper SwiperService fade-in-right" data-delay="300">
+        <div class="card-container swiper-wrapper">
+          <!-- CARD 1 -->
+          <div class="swiper-slide">
+            <div class="card card-1" data-delay="600">
+              <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+              </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/plano.svg"
+                    alt={translateLabels("service.card.sixth.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.sixth.title")}</h2>
+              <p>{translateLabels("service.card.sixth.description")}</p>
+            </div>
+          </div>
+          <!-- CARD 1 -->
+          <div class="swiper-slide">
+            <div class="card card-1" data-delay="600">
+              <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+                
+              </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/grua.svg"
+                    alt={translateLabels("service.card.seventh.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.seventh.title")}</h2>
+              <p>{translateLabels("service.card.seventh.description")}</p>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="swiper-slide">
+            <div class="card card-2" data-delay="800">
+               <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+              </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/tuercas-y-tornillos.svg"
+                    alt={translateLabels("service.card.eighth.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.eighth.title")}</h2>
+              <p>{translateLabels("service.card.eighth.description")}</p>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="swiper-slide">
+            <div class="card card-3" data-delay="1000">
+               <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+                
+              </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/destello.svg"
+                    alt={translateLabels("service.card.ninth.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.ninth.title")}</h2>
+              <p>{translateLabels("service.card.ninth.description")}</p>
+            </div>
+          </div>
+        
+        <!-- CARD 4 -->
+         <div class="swiper-slide">
+            <div class="card card-4" data-delay="1000">
+               <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+               </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/solar.svg"
+                    alt={translateLabels("service.card.tenth.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.tenth.title")}</h2>
+              <p>{translateLabels("service.card.tenth.description")}</p>
+            </div>
+          </div>
+        <!-- CARD 5 -->
+         <div class="swiper-slide">
+            <div class="card card-5" data-delay="1000">
+               <span class="company-name-alliance">
+                {translateLabels("alliance.titleHero")}
+                
+              </span>
+              <div class="background-icon">
+                <figure>
+                  <img
+                    src="/assets/Icons/grua.svg"
+                    alt={translateLabels("service.card.eleventh.iconAlt")}
+                  />
+                </figure>
+              </div>
+              <h2>{translateLabels("service.card.eleventh.title")}</h2>
+              <p>{translateLabels("service.card.eleventh.description")}</p>
+            </div>
+          </div>
+     
+        </div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next" data-delay="1200"></div>
+        <div class="swiper-button-prev" data-delay="1400"></div>
+
+        <div class="swiper-pagination fade-in" data-delay="1600"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="./Alliance.js"></script>

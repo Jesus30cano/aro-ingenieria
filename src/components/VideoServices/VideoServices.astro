@@ -1,0 +1,112 @@
+---
+import { useTranslations } from "../../i18n/util";
+import { languages } from "../../i18n/ui";
+import CardProjects from "../CardVideoServices/CardVideoServices.astro";
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+import { getProjectsData } from "../../data/VideoServicesData";
+import "./VideoServices.css";
+
+const ProjectsData = getProjectsData(translateLabels);
+
+const projects = Object.keys(ProjectsData).map((key) => ({
+  id: key,
+  ...ProjectsData[key],
+}));
+
+const projectsDataJSON = JSON.stringify(ProjectsData);
+---
+
+<section id="projects">
+  <div class="project-section2-container">
+    <div class="bg-section2">
+      <figure class="New-shape-container2 fade-in-up" data-delay="0">
+        <img
+          class="shape2 floating-animation"
+          src="/assets/Icons/flecha-hacia-arriba.svg"
+          alt=""
+        />
+      </figure>
+      <h1 class="slide-in-up2" data-delay="200">
+        {translateLabels("New-project.title")}
+      </h1>
+    </div>
+    <div class="swiper SwiperProject fade-in-up" data-delay="400">
+      <div class="project-card-container swiper-wrapper">
+        {
+          projects.map((project, index) => (
+            <div class="swiper-slide">
+              <div
+                class="card-wrapper slide-in-up"
+                data-delay={600 + index * 200}
+              >
+                <CardProjects
+                  title={project.title}
+                  description={project.description}
+                  client={project.client}
+                  media={project.media}
+                  projectId={project.id}
+                />
+              </div>
+            </div>
+          ))
+        }
+      </div>
+      <!-- Navigation buttons -->
+      <div class="custom-navigation">
+        <div class="swiper-button-prev custom-prev" data-delay="1000"></div>
+        <div class="swiper-button-next custom-next" data-delay="1200"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal para mostrar detalles del proyecto -->
+<div id="projectModal" class="modal-project">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button class="modal-close">&times;</button>
+      <div class="modal-client" id="modalClient"></div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+    </div>
+    <div class="modal-body">
+      <p class="modal-description" id="modalDescription"></p>
+      <div class="modal-tags" id="modalTags"></div>
+
+     
+
+      <div class="gallery-container">
+        <h3 class="gallery-title">
+          {translateLabels("New-project.modal.gallery-title")}
+        </h3>
+        <div class="image-gallery" id="modalGallery"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox para la galería -->
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img id="lightboxImage" class="lightbox-image" src="" alt="" />
+    <button
+      class="lightbox-nav lightbox-prev"
+      onclick="changeLightboxImage(-1)"
+    >
+      &#8249;
+    </button>
+    <button class="lightbox-nav lightbox-next" onclick="changeLightboxImage(1)">
+      &#8250;
+    </button>
+  </div>
+</div>
+
+<script src="./VideoServices.js"></script>
+
+<!-- Inyectar los datos del proyecto como JSON en el HTML -->
+<script
+  type="application/json"
+  id="projects-data"
+  set:html={projectsDataJSON}
+/>

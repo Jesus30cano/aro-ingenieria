@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header/header.astro";
 import HeroSection from "../../components/HeroSection/HeroSection.astro";
 import Services from "../../components/WeServices/Services.astro";
-import Projects from "../../components/Projects/Projects.astro";
+import CommercialAttention from "../../components/CommercialAttention/CommercialAttention.astro";
 import Reviews from "../../components/Reviews/Reviews.astro";
 import Logos from "../../components/Logos/Logos.astro";
 import AboutUs from "../../components/AboutUs/AboutUs.astro";
@@ -11,7 +11,9 @@ import WeTalent from "../../components/WeTalent/WeTalent.astro";
 import Members from "../../components/Members/Members.astro";
 import Working from "../../components/Working/Working.astro";
 import Footer from "../../components/Footer/footer.astro";
-import CvModal from "../../components/CVModals/cvModal.astro";
+import Alliance from "../../components/Alliance/Alliance.astro";
+import VideoServices from "../../components/VideoServices/VideoServices.astro";
+import ProjectForm from "../../components/Project/Project.astro";
 ---
 
 <Layout>
@@ -19,16 +21,17 @@ import CvModal from "../../components/CVModals/cvModal.astro";
     <Header />
     <HeroSection />
   </div>
+    <ProjectForm />
+   <VideoServices />
   <AboutUs />
   <Services />
   <WeTalent />
-  <Projects />
+  <CommercialAttention />
   <Members />
   <Reviews />
-  <!--<Logos />
-  
-  <CvModal /> -->
-   <Working />
+  <Logos />
+  <Alliance /> 
+  <Working />
   <Footer />
 </Layout>
 

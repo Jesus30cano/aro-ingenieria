@@ -1,0 +1,54 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  client: string;
+  media: {
+    type: "image" | "video";
+    src: string;
+    alt?: string;
+    poster?: string;
+  }[];
+  projectId: string;
+}
+
+const currentLang = Astro.currentLocale || "es";
+const translateLabels = useTranslations(currentLang as keyof typeof languages);
+const { title, description, media = [], client, projectId } = Astro.props;
+import type { languages } from "../../i18n/ui";
+import { useTranslations } from "../../i18n/util";
+import "./CardVideoServices.css";
+let randomImageSrc = "";
+let randomImageAlt = "";
+const imagesOnly = media.filter(item => item.type === "image");
+
+if (imagesOnly.length > 0) {
+  const randomIndex = Math.floor(Math.random() * imagesOnly.length);
+  const selectedImage = imagesOnly[randomIndex];
+  randomImageSrc = selectedImage.src;
+  randomImageAlt = selectedImage.alt || "";
+}
+
+---
+
+<div class="project-card">
+  <div class="project-image-container">
+    <figure>
+      <img src={randomImageSrc} alt={randomImageAlt} class="project-image" />
+    </figure>
+    <div class="image-counter">
+  🎬 {media.length}
+  {translateLabels("New-project-card-Imagecounter")}
+</div>
+
+  </div>
+  <div class="project-content">
+    <div class="project-client">{client}</div>
+    <h2 class="project-title">{title}</h2>
+    <p class="project-description">{description}</p>
+
+    <button class="view-project-btn btn-open-modal" data-project-id={projectId}>
+      {translateLabels("New-project-card-button")}
+    </button>
+  </div>
+</div>
